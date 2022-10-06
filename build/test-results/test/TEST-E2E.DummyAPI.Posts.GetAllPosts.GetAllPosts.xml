@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-06T09:24:12" hostname="TestVagrants-MacBook-Pro.local" time="0.745">
+<testsuite name="E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-06T11:38:10" hostname="TestVagrants-MacBook-Pro.local" time="1.748">
   <properties/>
-  <testcase name="getAllPosts" classname="E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts" time="0.745"/>
+  <testcase name="getAllPosts" classname="E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts" time="1.748"/>
   <system-out><![CDATA[{
     "data": [
         {
-            "id": "633e9ebb5030242b90e419fe",
+            "id": "633ebe2149c8a1589fe5d2c6",
             "image": "http://placeimg.com/640/480",
             "likes": 0,
             "tags": [
@@ -14,8 +14,242 @@
                 "husky"
             ],
             "text": "kishanSDET",
-            "publishDate": "2022-10-06T09:24:11.104Z",
-            "updatedDate": "2022-10-06T09:24:11.104Z",
+            "publishDate": "2022-10-06T11:38:09.676Z",
+            "updatedDate": "2022-10-06T11:38:09.676Z",
+            "owner": {
+                "id": "633e8d7552b10b51d3b29986",
+                "firstName": "Elenor",
+                "lastName": "Klein"
+            }
+        },
+        {
+            "id": "633ebe0749c8a1c93be5d289",
+            "image": "http://placeimg.com/640/480",
+            "likes": 0,
+            "tags": [
+                "dog",
+                "animal",
+                "husky"
+            ],
+            "text": "kishanSDET",
+            "publishDate": "2022-10-06T11:37:43.167Z",
+            "updatedDate": "2022-10-06T11:37:43.167Z",
+            "owner": {
+                "id": "633e8d7552b10b51d3b29986",
+                "firstName": "Elenor",
+                "lastName": "Klein"
+            }
+        },
+        {
+            "id": "633ebdce49c8a157e3e5d23e",
+            "image": "http://placeimg.com/640/480",
+            "likes": 0,
+            "tags": [
+                "dog",
+                "animal",
+                "husky"
+            ],
+            "text": "kishanSDET",
+            "publishDate": "2022-10-06T11:36:46.753Z",
+            "updatedDate": "2022-10-06T11:36:46.753Z",
+            "owner": {
+                "id": "633e8d7552b10b51d3b29986",
+                "firstName": "Elenor",
+                "lastName": "Klein"
+            }
+        },
+        {
+            "id": "633eb6f049c8a13412e5ceb4",
+            "image": "http://placeimg.com/640/480",
+            "likes": 0,
+            "tags": [
+                "dog",
+                "animal",
+                "husky"
+            ],
+            "text": "kishanSDET",
+            "publishDate": "2022-10-06T11:07:28.753Z",
+            "updatedDate": "2022-10-06T11:07:28.753Z",
+            "owner": {
+                "id": "633e8d7552b10b51d3b29986",
+                "firstName": "Elenor",
+                "lastName": "Klein"
+            }
+        },
+        {
+            "id": "633eaf81503024e258e422b1",
+            "image": "http://placeimg.com/640/480",
+            "likes": 0,
+            "tags": [
+                "dog",
+                "animal",
+                "husky"
+            ],
+            "text": "kishanSDET",
+            "publishDate": "2022-10-06T10:35:45.981Z",
+            "updatedDate": "2022-10-06T10:35:45.981Z",
+            "owner": {
+                "id": "633e8d7552b10b51d3b29986",
+                "firstName": "Elenor",
+                "lastName": "Klein"
+            }
+        },
+        {
+            "id": "633eaea2503024732fe4221a",
+            "image": "http://placeimg.com/640/480",
+            "likes": 0,
+            "tags": [
+                "dog",
+                "animal",
+                "husky"
+            ],
+            "text": "kishanSDET",
+            "publishDate": "2022-10-06T10:32:02.982Z",
+            "updatedDate": "2022-10-06T10:32:02.982Z",
+            "owner": {
+                "id": "633e8d7552b10b51d3b29986",
+                "firstName": "Elenor",
+                "lastName": "Klein"
+            }
+        },
+        {
+            "id": "633eade55030246372e421a7",
+            "image": "http://placeimg.com/640/480",
+            "likes": 0,
+            "tags": [
+                "dog",
+                "animal",
+                "husky"
+            ],
+            "text": "kishanSDET",
+            "publishDate": "2022-10-06T10:28:53.613Z",
+            "updatedDate": "2022-10-06T10:28:53.613Z",
+            "owner": {
+                "id": "633e8d7552b10b51d3b29986",
+                "firstName": "Elenor",
+                "lastName": "Klein"
+            }
+        },
+        {
+            "id": "633ead305030246abfe42132",
+            "image": "http://placeimg.com/640/480",
+            "likes": 0,
+            "tags": [
+                "dog",
+                "animal",
+                "husky"
+            ],
+            "text": "kishanSDET",
+            "publishDate": "2022-10-06T10:25:52.924Z",
+            "updatedDate": "2022-10-06T10:25:52.924Z",
+            "owner": {
+                "id": "633e8d7552b10b51d3b29986",
+                "firstName": "Elenor",
+                "lastName": "Klein"
+            }
+        },
+        {
+            "id": "633eac645030241dbfe4207b",
+            "image": "http://placeimg.com/640/480",
+            "likes": 0,
+            "tags": [
+                "dog",
+                "animal",
+                "husky"
+            ],
+            "text": "kishanSDET",
+            "publishDate": "2022-10-06T10:22:28.384Z",
+            "updatedDate": "2022-10-06T10:22:28.384Z",
+            "owner": {
+                "id": "633e8d7552b10b51d3b29986",
+                "firstName": "Elenor",
+                "lastName": "Klein"
+            }
+        },
+        {
+            "id": "633eac4e503024765ce42062",
+            "image": "http://placeimg.com/640/480",
+            "likes": 0,
+            "tags": [
+                "dog",
+                "animal",
+                "husky"
+            ],
+            "text": "kishanSDET",
+            "publishDate": "2022-10-06T10:22:06.099Z",
+            "updatedDate": "2022-10-06T10:22:06.099Z",
+            "owner": {
+                "id": "633e8d7552b10b51d3b29986",
+                "firstName": "Elenor",
+                "lastName": "Klein"
+            }
+        },
+        {
+            "id": "633eac0b50302404c2e42036",
+            "image": "http://placeimg.com/640/480",
+            "likes": 0,
+            "tags": [
+                "dog",
+                "animal",
+                "husky"
+            ],
+            "text": "kishanSDET",
+            "publishDate": "2022-10-06T10:20:59.183Z",
+            "updatedDate": "2022-10-06T10:20:59.183Z",
+            "owner": {
+                "id": "633e8d7552b10b51d3b29986",
+                "firstName": "Elenor",
+                "lastName": "Klein"
+            }
+        },
+        {
+            "id": "633eabcd50302482dde41ffc",
+            "image": "http://placeimg.com/640/480",
+            "likes": 0,
+            "tags": [
+                "dog",
+                "animal",
+                "husky"
+            ],
+            "text": "kishanSDET",
+            "publishDate": "2022-10-06T10:19:57.881Z",
+            "updatedDate": "2022-10-06T10:19:57.881Z",
+            "owner": {
+                "id": "633e8d7552b10b51d3b29986",
+                "firstName": "Elenor",
+                "lastName": "Klein"
+            }
+        },
+        {
+            "id": "633eab6d50302449b1e41fca",
+            "image": "http://placeimg.com/640/480",
+            "likes": 0,
+            "tags": [
+                "dog",
+                "animal",
+                "husky"
+            ],
+            "text": "kishanSDET",
+            "publishDate": "2022-10-06T10:18:21.698Z",
+            "updatedDate": "2022-10-06T10:18:21.698Z",
+            "owner": {
+                "id": "633e8d7552b10b51d3b29986",
+                "firstName": "Elenor",
+                "lastName": "Klein"
+            }
+        },
+        {
+            "id": "633ea917503024f81ce41ed9",
+            "image": "http://placeimg.com/640/480",
+            "likes": 0,
+            "tags": [
+                "dog",
+                "animal",
+                "husky"
+            ],
+            "text": "kishanSDET",
+            "publishDate": "2022-10-06T10:08:23.093Z",
+            "updatedDate": "2022-10-06T10:08:23.093Z",
             "owner": {
                 "id": "633e8d7552b10b51d3b29986",
                 "firstName": "Elenor",
@@ -132,256 +366,9 @@
                 "lastName": "Mason",
                 "picture": "https://randomuser.me/api/portraits/med/women/18.jpg"
             }
-        },
-        {
-            "id": "60d21afd67d0d8992e610bad",
-            "image": "https://img.dummyapi.io/photo-1575495679620-2ff225c75d5a.jpg",
-            "likes": 20,
-            "tags": [
-                "pet",
-                "animal",
-                "mammal"
-            ],
-            "text": "A picture of my golden doodle, Yogi Bear white dog",
-            "publishDate": "2020-05-20T21:49:33.321Z",
-            "owner": {
-                "id": "60d0fe4f5311236168a10a2c",
-                "title": "mr",
-                "firstName": "Toralf",
-                "lastName": "Streicher",
-                "picture": "https://randomuser.me/api/portraits/med/men/80.jpg"
-            }
-        },
-        {
-            "id": "60d21b0467d0d8992e610bc5",
-            "image": "https://img.dummyapi.io/photo-1549937334-e94f33e69787.jpg",
-            "likes": 5,
-            "tags": [
-                "dog",
-                "pet",
-                "mammal"
-            ],
-            "text": "long-coated brown dog",
-            "publishDate": "2020-05-20T21:00:40.371Z",
-            "owner": {
-                "id": "60d0fe4f5311236168a10a0d",
-                "title": "mr",
-                "firstName": "Lyam",
-                "lastName": "Morin",
-                "picture": "https://randomuser.me/api/portraits/med/men/95.jpg"
-            }
-        },
-        {
-            "id": "60d21bf367d0d8992e610e88",
-            "image": "https://img.dummyapi.io/photo-1564849444446-f876dcef378e.jpg",
-            "likes": 40,
-            "tags": [
-                "plant",
-                "mammal",
-                "pet"
-            ],
-            "text": "A feral cat short-fur gray and orange cat on green...",
-            "publishDate": "2020-05-20T18:51:23.478Z",
-            "owner": {
-                "id": "60d0fe4f5311236168a109f4",
-                "title": "mr",
-                "firstName": "Benjamin",
-                "lastName": "Holland",
-                "picture": "https://randomuser.me/api/portraits/med/men/58.jpg"
-            }
-        },
-        {
-            "id": "60d21bbf67d0d8992e610de6",
-            "image": "https://img.dummyapi.io/photo-1504208434309-cb69f4fe52b0.jpg",
-            "likes": 2225,
-            "tags": [
-                "dog",
-                "animal",
-                "nature"
-            ],
-            "text": "Beautiful dog in most photographed place in Canada...",
-            "publishDate": "2020-05-20T04:57:33.445Z",
-            "owner": {
-                "id": "60d0fe4f5311236168a10a12",
-                "title": "mr",
-                "firstName": "Kenneth",
-                "lastName": "Carter",
-                "picture": "https://randomuser.me/api/portraits/med/men/40.jpg"
-            }
-        },
-        {
-            "id": "60d21b7d67d0d8992e610d27",
-            "image": "https://img.dummyapi.io/photo-1546975554-31053113e977.jpg",
-            "likes": 77,
-            "tags": [
-                "dog",
-                "leaf",
-                "plant"
-            ],
-            "text": "white dog on ground",
-            "publishDate": "2020-05-19T08:26:29.436Z",
-            "owner": {
-                "id": "60d0fe4f5311236168a109d9",
-                "title": "ms",
-                "firstName": "Nuria",
-                "lastName": "Leon",
-                "picture": "https://randomuser.me/api/portraits/med/women/93.jpg"
-            }
-        },
-        {
-            "id": "60d21b7f67d0d8992e610d2b",
-            "image": "https://img.dummyapi.io/photo-1577849304422-d019fdd6f29f.jpg",
-            "likes": 25,
-            "tags": [
-                "dog",
-                "animal",
-                "canine"
-            ],
-            "text": "Dogs black and brown Yorkshire Terrier",
-            "publishDate": "2020-05-19T02:55:23.015Z",
-            "owner": {
-                "id": "60d0fe4f5311236168a109e3",
-                "title": "mr",
-                "firstName": "Vetle",
-                "lastName": "Aasland",
-                "picture": "https://randomuser.me/api/portraits/med/men/97.jpg"
-            }
-        },
-        {
-            "id": "60d21bd367d0d8992e610e25",
-            "image": "https://img.dummyapi.io/photo-1556877986-d40833ec88b4.jpg",
-            "likes": 6,
-            "tags": [
-                "dog",
-                "canine",
-                "animal"
-            ],
-            "text": "Being a proud owner of a frenchie... That means lo...",
-            "publishDate": "2020-05-19T02:16:25.689Z",
-            "owner": {
-                "id": "60d0fe4f5311236168a109d4",
-                "title": "mr",
-                "firstName": "Valentin",
-                "lastName": "Ortega",
-                "picture": "https://randomuser.me/api/portraits/med/men/3.jpg"
-            }
-        },
-        {
-            "id": "60d21bcf67d0d8992e610e16",
-            "image": "https://img.dummyapi.io/photo-1562221440-aba53beefed2.jpg",
-            "likes": 45,
-            "tags": [
-                "dog",
-                "animal",
-                "canine"
-            ],
-            "text": "person touching dog's head",
-            "publishDate": "2020-05-18T21:14:50.181Z",
-            "owner": {
-                "id": "60d0fe4f5311236168a10a2b",
-                "title": "mrs",
-                "firstName": "Angelica",
-                "lastName": "Roussel",
-                "picture": "https://randomuser.me/api/portraits/med/women/53.jpg"
-            }
-        },
-        {
-            "id": "60d21b4667d0d8992e610c87",
-            "image": "https://img.dummyapi.io/photo-1583381872273-a4a9e8d157ab.jpg",
-            "likes": 6,
-            "tags": [
-                "dog",
-                "animal",
-                "canine"
-            ],
-            "text": "My dog Cody looking super excited.  brown short co...",
-            "publishDate": "2020-05-18T15:52:46.051Z",
-            "owner": {
-                "id": "60d0fe4f5311236168a10a28",
-                "title": "miss",
-                "firstName": "OcÃ©ane",
-                "lastName": "Denis",
-                "picture": "https://randomuser.me/api/portraits/med/women/51.jpg"
-            }
-        },
-        {
-            "id": "60d21bbe67d0d8992e610de4",
-            "image": "https://img.dummyapi.io/photo-1582835173528-d2d1ecb87ab6.jpg",
-            "likes": 8,
-            "tags": [
-                "dog",
-                "animal",
-                "canine"
-            ],
-            "text": "white black and brown long coated small dog",
-            "publishDate": "2020-05-18T15:43:41.918Z",
-            "owner": {
-                "id": "60d0fe4f5311236168a10a14",
-                "title": "mr",
-                "firstName": "Cameron",
-                "lastName": "Mendoza",
-                "picture": "https://randomuser.me/api/portraits/med/men/95.jpg"
-            }
-        },
-        {
-            "id": "60d21b7f67d0d8992e610d2c",
-            "image": "https://img.dummyapi.io/photo-1536809188428-e8ecf663d0be.jpg",
-            "likes": 149,
-            "tags": [
-                "dog",
-                "animal",
-                "canine"
-            ],
-            "text": "Sun Bathing adult gold golden retriever lying on f...",
-            "publishDate": "2020-05-17T20:54:33.648Z",
-            "owner": {
-                "id": "60d0fe4f5311236168a10a10",
-                "title": "mr",
-                "firstName": "Nenad",
-                "lastName": "Leroy",
-                "picture": "https://randomuser.me/api/portraits/med/men/62.jpg"
-            }
-        },
-        {
-            "id": "60d21be767d0d8992e610e63",
-            "image": "https://img.dummyapi.io/photo-1575852495205-c3dc13f32d8c.jpg",
-            "likes": 9,
-            "tags": [
-                "dog",
-                "human",
-                "person"
-            ],
-            "text": "Engagement photos at the north campus at Universit...",
-            "publishDate": "2020-05-17T15:32:45.012Z",
-            "owner": {
-                "id": "60d0fe4f5311236168a10a2a",
-                "title": "mrs",
-                "firstName": "Susie",
-                "lastName": "Harrison",
-                "picture": "https://randomuser.me/api/portraits/med/women/20.jpg"
-            }
-        },
-        {
-            "id": "60d21b6467d0d8992e610ce0",
-            "image": "https://img.dummyapi.io/photo-1548658166-136d9f6a7e76.jpg",
-            "likes": 501,
-            "tags": [
-                "dog",
-                "animal",
-                "canine"
-            ],
-            "text": "yawning white and brown short coated puppy",
-            "publishDate": "2020-05-17T10:43:24.011Z",
-            "owner": {
-                "id": "60d0fe4f5311236168a109d1",
-                "title": "mr",
-                "firstName": "Kent",
-                "lastName": "Brewer",
-                "picture": "https://randomuser.me/api/portraits/med/men/52.jpg"
-            }
         }
     ],
-    "total": 784,
+    "total": 771,
     "page": 0,
     "limit": 20
 }

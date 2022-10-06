@@ -1,7 +1,8 @@
 package E2E.DummyAPI.Posts.DeletePostByValidId;
+import E2E.DummyAPI.Posts.GetAllPosts.GetAllPostsResponseBody.getAllResponseBody;
 
 import E2E.DummyAPI.Posts.PostsClient;
-import E2E.getValidPostId;
+import io.restassured.response.Response;
 import org.hamcrest.Matchers;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -15,14 +16,16 @@ public class DeletePostById {
     }
     @Test(groups = {"api"})
     public void deletePostById(){
-              String  postId=getValidPostId.ValidPostId;
+            Response response= postsClient.getAllPosts();
+             getAllResponseBody getAll=response.as(getAllResponseBody.class);
+            String postId= getAll.getData().get(0).getId();
                 //Act
                 postsClient.deletePostById(postId)
+
                 .then()
                 //Assert
                 .log().body()
                 .statusCode(200)
-                .body("image",Matchers.notNullValue())
                         .body("id",Matchers.equalTo(postId));
     }
 

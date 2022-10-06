@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-10-06T09:24:11" hostname="TestVagrants-MacBook-Pro.local" time="0.939">
+<testsuite name="E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-10-06T11:38:09" hostname="TestVagrants-MacBook-Pro.local" time="0.424">
   <properties/>
-  <testcase name="deletePostById" classname="E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById" time="0.939">
-    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;JSON path image doesn't match.&#10;Expected: not null&#10;  Actual: null&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
-JSON path image doesn't match.
-Expected: not null
-  Actual: null
+  <testcase name="deletePostById" classname="E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById" time="0.424">
+    <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
 
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -28,16 +26,11 @@ Expected: not null
 	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
 	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
 	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:50)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:270)
-	at io.restassured.specification.ResponseSpecification$body$1.callCurrent(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:50)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:212)
-	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:117)
-	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
 	at E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById.deletePostById(DeletePostById.java:24)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -88,7 +81,7 @@ Expected: not null
 </failure>
   </testcase>
   <system-out><![CDATA[{
-    "id": "633e9e4529ad7a7ad12d76c5"
+    "error": "RESOURCE_NOT_FOUND"
 }
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

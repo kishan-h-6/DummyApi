@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="E2E.DummyAPI.E2E.EndToEndTestCases" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-06T11:38:05" hostname="TestVagrants-MacBook-Pro.local" time="4.024">
+  <properties/>
+  <testcase name="end2EndTestsCases" classname="E2E.DummyAPI.E2E.EndToEndTestCases" time="4.024"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

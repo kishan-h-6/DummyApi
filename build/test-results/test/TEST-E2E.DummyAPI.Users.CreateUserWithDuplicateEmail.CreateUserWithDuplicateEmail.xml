@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-06T09:24:13" hostname="TestVagrants-MacBook-Pro.local" time="0.402">
+<testsuite name="E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-06T11:38:12" hostname="TestVagrants-MacBook-Pro.local" time="0.528">
   <properties/>
-  <testcase name="createNewUser" classname="E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail" time="0.402"/>
+  <testcase name="createNewUser" classname="E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail" time="0.528"/>
   <system-out><![CDATA[{
     "error": "BODY_NOT_VALID",
     "data": {

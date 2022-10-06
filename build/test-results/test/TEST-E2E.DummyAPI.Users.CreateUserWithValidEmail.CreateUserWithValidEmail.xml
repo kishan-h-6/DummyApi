@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-06T09:24:13" hostname="TestVagrants-MacBook-Pro.local" time="0.895">
+<testsuite name="E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-06T11:38:12" hostname="TestVagrants-MacBook-Pro.local" time="0.391">
   <properties/>
-  <testcase name="createNewUser" classname="E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail" time="0.895"/>
+  <testcase name="createNewUser" classname="E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail" time="0.391"/>
   <system-out><![CDATA[{
-    "id": "633e9ebe5030248234e41a19",
+    "id": "633ebe2449c8a15185e5d2d8",
     "firstName": "kishan",
     "lastName": "rao",
-    "email": "f9039757-c162-4ae4-870e-c26d006f4f09@gmail.com",
-    "registerDate": "2022-10-06T09:24:14.615Z",
-    "updatedDate": "2022-10-06T09:24:14.615Z"
+    "email": "1f143045-e639-4dc1-902e-112ff5607711@gmail.com",
+    "registerDate": "2022-10-06T11:38:12.996Z",
+    "updatedDate": "2022-10-06T11:38:12.996Z"
 }
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

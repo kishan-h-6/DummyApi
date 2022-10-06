@@ -21,7 +21,7 @@ public class EndToEndTestCases {
         usersClient=new UsersClient();
     }
 
-    @Test
+    @Test(groups = {"e2e"})
     public void end2EndTestsCases(){
         String text="kishanSDET";
         String image="http://placeimg.com/640/480";

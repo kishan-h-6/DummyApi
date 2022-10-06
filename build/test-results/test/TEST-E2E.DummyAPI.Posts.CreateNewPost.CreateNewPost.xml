@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-06T09:24:09" hostname="TestVagrants-MacBook-Pro.local" time="2.182">
+<testsuite name="E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-06T11:38:09" hostname="TestVagrants-MacBook-Pro.local" time="0.563">
   <properties/>
-  <testcase name="createNewPost" classname="E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost" time="2.182"/>
+  <testcase name="createNewPost" classname="E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost" time="0.563"/>
   <system-out><![CDATA[{
-    "id": "633e9ebb5030242b90e419fe",
+    "id": "633ebe2149c8a1589fe5d2c6",
     "image": "http://placeimg.com/640/480",
     "likes": 0,
     "link": "",
@@ -13,8 +13,8 @@
         "husky"
     ],
     "text": "kishanSDET",
-    "publishDate": "2022-10-06T09:24:11.104Z",
-    "updatedDate": "2022-10-06T09:24:11.104Z",
+    "publishDate": "2022-10-06T11:38:09.676Z",
+    "updatedDate": "2022-10-06T11:38:09.676Z",
     "owner": {
         "id": "633e8d7552b10b51d3b29986",
         "firstName": "Elenor",
