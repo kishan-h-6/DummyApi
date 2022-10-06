@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="User.CreateNewUser.createNewUserWithDuplicateEmail" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-05T17:26:12" hostname="TestVagrants-MacBook-Pro.local" time="1.203">
+  <properties/>
+  <testcase name="CreateNewUser" classname="User.CreateNewUser.createNewUserWithDuplicateEmail" time="1.203"/>
+  <system-out><![CDATA[{
+    "error": "BODY_NOT_VALID",
+    "data": {
+        "email": "Email already used"
+    }
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

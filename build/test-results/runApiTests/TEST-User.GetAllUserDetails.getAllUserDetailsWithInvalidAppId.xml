@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="User.GetAllUserDetails.getAllUserDetailsWithInvalidAppId" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-05T17:26:14" hostname="TestVagrants-MacBook-Pro.local" time="0.648">
+  <properties/>
+  <testcase name="GetAllUsersDetail" classname="User.GetAllUserDetails.getAllUserDetailsWithInvalidAppId" time="0.648"/>
+  <system-out><![CDATA[{
+    "error": "APP_ID_NOT_EXIST"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

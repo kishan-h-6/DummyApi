@@ -1,0 +1,43 @@
+package E2E.DummyAPI.Posts;
+import E2E.DummyAPI.Posts.PostRequestBody.CreatePostRequestBody;
+import E2E.getValidPostId;
+import User.getValidAppId;
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
+import static io.restassured.RestAssured.given;
+
+public class PostsClient {
+
+    public Response getAllPosts(){
+        return given()
+                .header("app-id", getValidAppId.ValidAppId)
+                .when()
+                .get("https://dummyapi.io/data/v1/post");
+    }
+
+    public Response getPostById(){
+        return given()
+                .header("app-id", getValidAppId.ValidAppId)
+                .when()
+                .get("https://dummyapi.io/data/v1/post/"+getValidPostId.ValidPostId);
+    }
+    public Response deletePostById(){
+        return given()
+                .header("app-id", getValidAppId.ValidAppId)
+                .when()
+                .delete("https://dummyapi.io/data/v1/post/"+getValidPostId.ValidPostId);
+    }
+
+    public Response createPost(CreatePostRequestBody body){
+        return given()
+                .accept(ContentType.JSON)
+                .contentType(ContentType.JSON)
+                .header("app-id", "633c1299e9593a1f5e8b8758")
+                .body(body)
+                .when()
+                .post("https://dummyapi.io/data/v1/post/create");
+    }
+
+
+
+}

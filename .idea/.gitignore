@@ -1,0 +1,9 @@
+.gradle/
+build/
+Posts/
+User/
+intelliJ idea
+.idea/
+*.iml
+*.ims
+*.ipr

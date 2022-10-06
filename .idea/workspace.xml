@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9501c177-d484-4d7e-9fa6-a760081f8072" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FgE3XNn4DdQBCvVnuLMLXs01hu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_directory_selection": "/Users/testvagrant/DummyApi/src/test/java",
+    "last_opened_file_path": "/Users/testvagrant/DummyApi/src/test/java/E2E/DummyAPI/Posts",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="E2E.DummyAPI.Users.DeleteUser" />
+      <recent name="E2E.DummyAPI" />
+      <recent name="E2E.DummyAPI.Posts" />
+      <recent name="User" />
+      <recent name="E2E.CreateNewUser.Users" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.GetAllPosts">
+    <configuration name="GetAllPosts" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DummyApi.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="E2E.DummyAPI.Posts.GetAllPosts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="E2E.DummyAPI.Posts.GetAllPosts" />
+      <option name="MAIN_CLASS_NAME" value="E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetAllPosts.getAllPosts" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DummyApi.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="E2E.DummyAPI.Posts.GetAllPosts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="E2E.DummyAPI.Posts.GetAllPosts" />
+      <option name="MAIN_CLASS_NAME" value="E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts" />
+      <option name="METHOD_NAME" value="getAllPosts" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetAllUsers.getAllUsers" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DummyApi.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="E2E.DummyAPI.Users.GetAllUsers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="E2E.DummyAPI.Users.GetAllUsers" />
+      <option name="MAIN_CLASS_NAME" value="E2E.DummyAPI.Users.GetAllUsers.GetAllUsers" />
+      <option name="METHOD_NAME" value="getAllUsers" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetPostById" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DummyApi.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="E2E.DummyAPI.Posts.GetPostById.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="E2E.DummyAPI.Posts.GetPostById" />
+      <option name="MAIN_CLASS_NAME" value="E2E.DummyAPI.Posts.GetPostById.GetPostById" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetPostById.getPostById" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DummyApi.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="E2E.DummyAPI.Posts.GetPostById.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="E2E.DummyAPI.Posts.GetPostById" />
+      <option name="MAIN_CLASS_NAME" value="E2E.DummyAPI.Posts.GetPostById.GetPostById" />
+      <option name="METHOD_NAME" value="getPostById" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.GetAllPosts" />
+        <item itemvalue="TestNG.GetAllPosts.getAllPosts" />
+        <item itemvalue="TestNG.GetAllUsers.getAllUsers" />
+        <item itemvalue="TestNG.GetPostById" />
+        <item itemvalue="TestNG.GetPostById.getPostById" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9501c177-d484-4d7e-9fa6-a760081f8072" name="Changes" comment="" />
+      <created>1664905131867</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664905131867</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DummyApi$getAllUserDetails.ic" NAME="getAllUserDetails Coverage Results" MODIFIED="1664935744405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
