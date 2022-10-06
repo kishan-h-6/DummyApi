@@ -15,17 +15,17 @@ public class PostsClient {
                 .get("https://dummyapi.io/data/v1/post");
     }
 
-    public Response getPostById(){
+    public Response getPostById(String postId){
         return given()
                 .header("app-id", getValidAppId.ValidAppId)
                 .when()
-                .get("https://dummyapi.io/data/v1/post/"+getValidPostId.ValidPostId);
+                .get("https://dummyapi.io/data/v1/post/"+postId);
     }
-    public Response deletePostById(){
+    public Response deletePostById(String postId){
         return given()
                 .header("app-id", getValidAppId.ValidAppId)
                 .when()
-                .delete("https://dummyapi.io/data/v1/post/"+getValidPostId.ValidPostId);
+                .delete("https://dummyapi.io/data/v1/post/"+postId);
     }
 
     public Response createPost(CreatePostRequestBody body){

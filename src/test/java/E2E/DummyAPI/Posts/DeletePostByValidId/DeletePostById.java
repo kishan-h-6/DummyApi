@@ -15,14 +15,15 @@ public class DeletePostById {
     }
     @Test(groups = {"api"})
     public void deletePostById(){
+              String  postId=getValidPostId.ValidPostId;
                 //Act
-                postsClient.deletePostById()
+                postsClient.deletePostById(postId)
                 .then()
                 //Assert
                 .log().body()
                 .statusCode(200)
                 .body("image",Matchers.notNullValue())
-                        .body("id",Matchers.equalTo(getValidPostId.ValidPostId));
+                        .body("id",Matchers.equalTo(postId));
     }
 
 }

@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9501c177-d484-4d7e-9fa6-a760081f8072" name="Changes" comment="" />
+    <list default="true" id="9501c177-d484-4d7e-9fa6-a760081f8072" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/E2E/EndToEndTestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Posts/DeletePostByValidId/DeletePostById.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Posts/DeletePostByValidId/DeletePostById.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Posts/GetPostById/GetPostById.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Posts/GetPostById/GetPostById.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Posts/PostsClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Posts/PostsClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/getValidPostId.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/E2E/getValidPostId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/DeletePostByValidId/DeletePostById.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/DeletePostByValidId/DeletePostById.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/GetPostById/GetPostById.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/GetPostById/GetPostById.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/PostsClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/PostsClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/getValidPostId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/getValidPostId.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,16 +52,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FgE3XNn4DdQBCvVnuLMLXs01hu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_directory_selection": "/Users/testvagrant/DummyApi/src/test/java",
     "last_opened_file_path": "/Users/testvagrant/DummyApi/src/test/java/E2E/DummyAPI/Posts",
     "project.structure.last.edited": "Modules",
@@ -63,7 +87,61 @@
       <recent name="E2E.CreateNewUser.Users" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GetAllPosts">
+  <component name="RunManager" selected="TestNG.EndToEndTestCases.end2EndTestsCases">
+    <configuration name="CreateNewPost.createNewPost" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DummyApi.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="E2E.DummyAPI.Posts.CreateNewPost.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="E2E.DummyAPI.Posts.CreateNewPost" />
+      <option name="MAIN_CLASS_NAME" value="E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost" />
+      <option name="METHOD_NAME" value="createNewPost" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeletePostById.deletePostById" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DummyApi.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="E2E.DummyAPI.Posts.DeletePostByValidId.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="E2E.DummyAPI.Posts.DeletePostByValidId" />
+      <option name="MAIN_CLASS_NAME" value="E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById" />
+      <option name="METHOD_NAME" value="deletePostById" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EndToEndTestCases.end2EndTestsCases" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DummyApi.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="E2E.DummyAPI.E2E.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="E2E.DummyAPI.E2E" />
+      <option name="MAIN_CLASS_NAME" value="E2E.DummyAPI.E2E.EndToEndTestCases" />
+      <option name="METHOD_NAME" value="end2EndTestsCases" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GetAllPosts" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DummyApi.test" />
       <extension name="coverage">
@@ -99,66 +177,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetAllUsers.getAllUsers" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DummyApi.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="E2E.DummyAPI.Users.GetAllUsers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="E2E.DummyAPI.Users.GetAllUsers" />
-      <option name="MAIN_CLASS_NAME" value="E2E.DummyAPI.Users.GetAllUsers.GetAllUsers" />
-      <option name="METHOD_NAME" value="getAllUsers" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetPostById" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DummyApi.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="E2E.DummyAPI.Posts.GetPostById.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="E2E.DummyAPI.Posts.GetPostById" />
-      <option name="MAIN_CLASS_NAME" value="E2E.DummyAPI.Posts.GetPostById.GetPostById" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetPostById.getPostById" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DummyApi.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="E2E.DummyAPI.Posts.GetPostById.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="E2E.DummyAPI.Posts.GetPostById" />
-      <option name="MAIN_CLASS_NAME" value="E2E.DummyAPI.Posts.GetPostById.GetPostById" />
-      <option name="METHOD_NAME" value="getPostById" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GetAllPosts" />
+        <item itemvalue="TestNG.EndToEndTestCases.end2EndTestsCases" />
         <item itemvalue="TestNG.GetAllPosts.getAllPosts" />
-        <item itemvalue="TestNG.GetAllUsers.getAllUsers" />
-        <item itemvalue="TestNG.GetPostById" />
-        <item itemvalue="TestNG.GetPostById.getPostById" />
+        <item itemvalue="TestNG.DeletePostById.deletePostById" />
+        <item itemvalue="TestNG.CreateNewPost.createNewPost" />
+        <item itemvalue="TestNG.GetAllPosts" />
       </list>
     </recent_temporary>
   </component>
@@ -172,6 +197,17 @@
       <updated>1664905131867</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DummyApi$getAllUserDetails.ic" NAME="getAllUserDetails Coverage Results" MODIFIED="1664935744405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
