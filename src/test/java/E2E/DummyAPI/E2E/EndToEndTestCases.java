@@ -1,8 +1,8 @@
 package E2E.DummyAPI.E2E;
 
-import E2E.DummyAPI.Posts.PostRequestBody.CreatePostRequestBody;
-import E2E.DummyAPI.Posts.PostResponseBody.PostResponseBody;
+import E2E.DummyAPI.Posts.Responses.PostRequestBody.CreatePostRequestBody;
 import E2E.DummyAPI.Posts.PostsClient;
+import E2E.DummyAPI.Posts.Responses.PostResponseBody.CreatePostResponseBody;
 import E2E.DummyAPI.Users.UsersClient;
 import io.restassured.response.Response;
 import org.testng.Assert;
@@ -21,7 +21,7 @@ public class EndToEndTestCases {
         usersClient=new UsersClient();
     }
 
-    @Test(groups = {"e2e"})
+    @Test(groups = {"e2e"},enabled = false)
     public void end2EndTestsCases(){
         String text="kishanSDET";
         String image="http://placeimg.com/640/480";
@@ -31,16 +31,16 @@ public class EndToEndTestCases {
                 .tags(tags).owner(owner).likes(0).image(image).text(text).build();
 
         Response response = postsClient.createPost(requestBody);
-        PostResponseBody postResponseBody = response.as(PostResponseBody.class);
+        CreatePostResponseBody postResponseBody = response.as(CreatePostResponseBody.class);
         Assert.assertNotNull(postResponseBody);
         Assert.assertEquals(response.statusCode(),200);
 
         Response postResponseById = postsClient.getPostById(postResponseBody.getId());
-        PostResponseBody postResponseByIdBody = postResponseById.as(PostResponseBody.class);
+        CreatePostResponseBody postResponseByIdBody = postResponseById.as(CreatePostResponseBody.class);
         Assert.assertEquals(postResponseById.statusCode(),200);
 
         Response postDeleteByIdResponse= postsClient.deletePostById(postResponseBody.getId());
-        PostResponseBody postDeleteByIdResponseBody=postDeleteByIdResponse.as(PostResponseBody.class);
+        CreatePostResponseBody postDeleteByIdResponseBody=postDeleteByIdResponse.as(CreatePostResponseBody.class);
         Assert.assertEquals(postResponseById.statusCode(),200);
         Assert.assertEquals(postDeleteByIdResponseBody.getId(),postResponseByIdBody.getId());
     }

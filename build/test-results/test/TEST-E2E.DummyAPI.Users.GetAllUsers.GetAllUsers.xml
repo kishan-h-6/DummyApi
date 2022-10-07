@@ -1,81 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="E2E.DummyAPI.Users.GetAllUsers.GetAllUsers" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-07T10:20:14" hostname="TestVagrants-MacBook-Pro.local" time="0.385">
+<testsuite name="E2E.DummyAPI.Users.GetAllUsers.GetAllUsers" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-07T11:36:49" hostname="TestVagrants-MacBook-Pro.local" time="0.423">
   <properties/>
-  <testcase name="getAllUsers" classname="E2E.DummyAPI.Users.GetAllUsers.GetAllUsers" time="0.385"/>
+  <testcase name="getAllUsers" classname="E2E.DummyAPI.Users.GetAllUsers.GetAllUsers" time="0.423"/>
   <system-out><![CDATA[{
     "data": [
         {
-            "id": "60d0fe4f5311236168a109d8",
-            "title": "mrs",
-            "firstName": "Karoline",
-            "lastName": "Sviggum",
-            "picture": "https://randomuser.me/api/portraits/med/women/61.jpg"
+            "id": "60d0fe4f5311236168a109e3",
+            "title": "mr",
+            "firstName": "Vetle",
+            "lastName": "Aasland",
+            "picture": "https://randomuser.me/api/portraits/med/men/97.jpg"
         },
         {
-            "id": "60d0fe4f5311236168a109d9",
+            "id": "60d0fe4f5311236168a109e4",
+            "title": "mr",
+            "firstName": "Pwry",
+            "lastName": "Shylyrd",
+            "picture": "https://randomuser.me/api/portraits/med/men/37.jpg"
+        },
+        {
+            "id": "60d0fe4f5311236168a109e5",
+            "title": "mr",
+            "firstName": "Adrian",
+            "lastName": "Rodriguez",
+            "picture": "https://randomuser.me/api/portraits/med/men/45.jpg"
+        },
+        {
+            "id": "60d0fe4f5311236168a109e6",
+            "title": "miss",
+            "firstName": "Milla",
+            "lastName": "Pollari",
+            "picture": "https://randomuser.me/api/portraits/med/women/89.jpg"
+        },
+        {
+            "id": "60d0fe4f5311236168a109e7",
+            "title": "mr",
+            "firstName": "Joey",
+            "lastName": "Oliver",
+            "picture": "https://randomuser.me/api/portraits/med/men/61.jpg"
+        },
+        {
+            "id": "60d0fe4f5311236168a109e8",
+            "title": "mrs",
+            "firstName": "Cecilie",
+            "lastName": "Mortensen",
+            "picture": "https://randomuser.me/api/portraits/med/women/56.jpg"
+        },
+        {
+            "id": "60d0fe4f5311236168a109e9",
+            "title": "mr",
+            "firstName": "Alfredo",
+            "lastName": "Omahony",
+            "picture": "https://randomuser.me/api/portraits/med/men/76.jpg"
+        },
+        {
+            "id": "60d0fe4f5311236168a109ea",
+            "title": "mrs",
+            "firstName": "Mhrs",
+            "lastName": "Hsyny",
+            "picture": "https://randomuser.me/api/portraits/med/women/77.jpg"
+        },
+        {
+            "id": "60d0fe4f5311236168a109eb",
             "title": "ms",
-            "firstName": "Nuria",
-            "lastName": "Leon",
-            "picture": "https://randomuser.me/api/portraits/med/women/93.jpg"
+            "firstName": "Nella",
+            "lastName": "Koivisto",
+            "picture": "https://randomuser.me/api/portraits/med/women/77.jpg"
         },
         {
-            "id": "60d0fe4f5311236168a109da",
+            "id": "60d0fe4f5311236168a109ec",
             "title": "mr",
-            "firstName": "Lance",
-            "lastName": "Foster",
-            "picture": "https://randomuser.me/api/portraits/med/men/13.jpg"
-        },
-        {
-            "id": "60d0fe4f5311236168a109db",
-            "title": "miss",
-            "firstName": "Naomi",
-            "lastName": "Rodrigues",
-            "picture": "https://randomuser.me/api/portraits/med/women/39.jpg"
-        },
-        {
-            "id": "60d0fe4f5311236168a109dc",
-            "title": "mr",
-            "firstName": "Evan",
-            "lastName": "Roux",
-            "picture": "https://randomuser.me/api/portraits/med/men/59.jpg"
-        },
-        {
-            "id": "60d0fe4f5311236168a109dd",
-            "title": "mr",
-            "firstName": "Miguel",
-            "lastName": "Lima",
-            "picture": "https://randomuser.me/api/portraits/med/men/31.jpg"
-        },
-        {
-            "id": "60d0fe4f5311236168a109de",
-            "title": "miss",
-            "firstName": "Bessie",
-            "lastName": "Burke",
-            "picture": "https://randomuser.me/api/portraits/med/women/72.jpg"
-        },
-        {
-            "id": "60d0fe4f5311236168a109df",
-            "title": "mrs",
-            "firstName": "Anaelle",
-            "lastName": "Dumas",
-            "picture": "https://randomuser.me/api/portraits/med/women/25.jpg"
-        },
-        {
-            "id": "60d0fe4f5311236168a109e0",
-            "title": "miss",
-            "firstName": "Milly",
-            "lastName": "Norman",
-            "picture": "https://randomuser.me/api/portraits/med/women/31.jpg"
-        },
-        {
-            "id": "60d0fe4f5311236168a109e1",
-            "title": "mr",
-            "firstName": "James",
-            "lastName": "Black",
-            "picture": "https://randomuser.me/api/portraits/med/men/29.jpg"
+            "firstName": "Lucas",
+            "lastName": "Larsen",
+            "picture": "https://randomuser.me/api/portraits/med/men/50.jpg"
         }
     ],
-    "total": 178,
+    "total": 180,
     "page": 0,
     "limit": 10
 }

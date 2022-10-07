@@ -1,10 +1,9 @@
 package E2E.DummyAPI.Posts.DeletePostByValidId;
-import E2E.DummyAPI.Posts.DeletePostResponse.DeletePostResponseBody;
-import E2E.DummyAPI.Posts.GetAllPosts.GetAllPostsResponseBody.getAllResponseBody;
+import E2E.DummyAPI.Posts.Responses.DeletePostResponse.DeletePostResponseBody;
+import E2E.DummyAPI.Posts.Responses.GetAllPostsResponseBody.getAllResponseBody;
 
 import E2E.DummyAPI.Posts.PostsClient;
 import io.restassured.response.Response;
-import org.hamcrest.Matchers;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;

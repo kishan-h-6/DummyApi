@@ -1,8 +1,11 @@
 package E2E.DummyAPI.Posts.GetPostById;
 
 import E2E.DummyAPI.Posts.PostsClient;
+import E2E.DummyAPI.Posts.Responses.GetAllPostsResponseBody.getAllResponseBody;
 import E2E.getValidPostId;
+import io.restassured.response.Response;
 import org.hamcrest.Matchers;
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -13,15 +16,15 @@ public class GetPostById {
     public void beforeClass(){
         postsClient = new PostsClient();
     }
-    @Test(groups = {"api"})
+    @Test(groups = "api")
     public void getPostById(){
                 //Act
-        String postId=getValidPostId.ValidPostId;
-                postsClient.getPostById(postId)
-                .then()
-                //Assert
-                .log().body()
-                .statusCode(200)
-                .body("image",Matchers.notNullValue());
+             Response idResponse= postsClient.getAllPosts();
+             getAllResponseBody getAll=idResponse.as(getAllResponseBody.class);
+             String postId= getAll.getData().get(0).getId();
+
+              Response response= postsClient.getPostById(postId);
+              Assert.assertNotNull(response);
+
     }
 }

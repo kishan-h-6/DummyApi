@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-07T11:36:51" hostname="TestVagrants-MacBook-Pro.local" time="2.337">
+  <properties/>
+  <testcase name="createNewPost" classname="E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost" time="2.337"/>
+  <system-out><![CDATA[{
+    "id": "63400f554887a2b72ec1a13c",
+    "image": "http://placeimg.com/640/480",
+    "likes": 0,
+    "link": "",
+    "tags": [
+        "dog",
+        "animal",
+        "husky"
+    ],
+    "text": "kishanSDET",
+    "publishDate": "2022-10-07T11:36:53.168Z",
+    "updatedDate": "2022-10-07T11:36:53.168Z",
+    "owner": {
+        "id": "60d0fe4f5311236168a109e8",
+        "title": "mrs",
+        "firstName": "Cecilie",
+        "lastName": "Mortensen",
+        "picture": "https://randomuser.me/api/portraits/med/women/56.jpg"
+    }
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
