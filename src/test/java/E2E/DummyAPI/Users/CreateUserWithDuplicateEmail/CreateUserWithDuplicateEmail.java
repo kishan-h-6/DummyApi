@@ -10,13 +10,16 @@ public class CreateUserWithDuplicateEmail {
     @BeforeClass
     public void beforeClass(){
         usersClient = new UsersClient();
-    }
+    }   // 1.Arrange
     @Test(groups = {"api"})
     public void createNewUserWithError(){
-
-        CreateUserRequestBody requestBody = CreateUserRequestBody.builder()
-                .firstName("kishan").lastName("rao").email("k344@gmail.com").build();
-        CreateUserErrorResponse errorResponse=usersClient.createUserExpectingError(requestBody);
-        Assert.assertEquals(errorResponse.getData().getEmail(),"Email already used");
+                // 2.Act
+                CreateUserRequestBody requestBody = CreateUserRequestBody.builder()
+                                                    .firstName("kishan")
+                                                    .lastName("rao")
+                                                    .email("k344@gmail.com").build();
+                CreateUserErrorResponse errorResponse=usersClient.createUserExpectingError(requestBody);
+                // 3.Assert
+                Assert.assertEquals(errorResponse.getData().getEmail(),"Email already used");
     }
 }

@@ -1,5 +1,4 @@
 package E2E.DummyAPI.Users.GetAllUsers;
-
 import E2E.DummyAPI.Users.Responses.GetAllUserResponse.GetAllUserResponse;
 import E2E.DummyAPI.Users.UsersClient;
 import org.testng.Assert;
@@ -7,16 +6,13 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 public class GetAllUsers {
     private UsersClient usersClient;
-    //Arrange
     @BeforeClass
-    public void beforeClass(){
-        usersClient = new UsersClient();
-    }
+    public void beforeClass(){usersClient = new UsersClient();}  // 1.Arrange
     @Test(groups = "api")
     public void getAllUsers(){
-        //Act
+        // 2.Act
         GetAllUserResponse response=usersClient.getAllUser();
+        // 3.Assert
         Assert.assertNotNull(response);
-
     }
 }

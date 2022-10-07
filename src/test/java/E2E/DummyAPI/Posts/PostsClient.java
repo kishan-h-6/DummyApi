@@ -19,26 +19,24 @@ public class PostsClient {
                 .when()
                 .get("https://dummyapi.io/data/v1/post/"+postId);
     }
+
     public Response deletePostById(String postId){
         return given()
                 .header("app-id", getValidAppId.ValidAppId)
                 .when()
                 .delete("https://dummyapi.io/data/v1/post/" + postId);
-
     }
 
     public Response createPost(CreatePostRequestBody body){
         Response response = given()
-                .accept(ContentType.JSON)
-                .contentType(ContentType.JSON)
-                .header("app-id", "633c1299e9593a1f5e8b8758")
-                .body(body)
-                .when()
-                .post("https://dummyapi.io/data/v1/post/create");
-
-        response.then().log().body();
-
-        return response;
+                                .accept(ContentType.JSON)
+                                .contentType(ContentType.JSON)
+                                .header("app-id", "633c1299e9593a1f5e8b8758")
+                                .body(body)
+                            .when()
+                            .post("https://dummyapi.io/data/v1/post/create");
+                             response.then().log().body();
+                             return response;
     }
 
 

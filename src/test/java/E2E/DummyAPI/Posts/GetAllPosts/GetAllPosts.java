@@ -8,16 +8,15 @@ import org.testng.annotations.Test;
 
 public class GetAllPosts {
     private PostsClient postsClient;
-    //Arrange
     @BeforeClass
     public void beforeClass(){
         postsClient = new PostsClient();
-    }
-
+    } // 1.Arrange
     @Test(groups = {"api"})
     public void getAllPosts(){
-                //Act
+                // 2.Act
                  Response response= postsClient.getAllPosts();
+                 // 3.Assert
                  Assert.assertNotNull(response);
 
     }

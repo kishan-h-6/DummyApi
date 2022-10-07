@@ -12,26 +12,17 @@ import static io.restassured.RestAssured.given;
 
 public class DeleteUserById {
     private UsersClient usersClient;
-    //Arrange
-
     @BeforeClass
-    public void beforeClass(){
-        usersClient = new UsersClient();
-    }
+    public void beforeClass(){usersClient = new UsersClient();} // 1.Arrange
     @Test(groups = {"api"})
     public void deleteUserById(){
-
-        //Arrange
         Response allUsers = usersClient.getAllUsers();
         GetUserResponse getUserResponse = allUsers.as(GetUserResponse.class);
-
         String userId= getUserResponse.getData().get(0).getId();
-                //Act
-                Response response=usersClient.deleteUserById(userId);
+        // 2.Act
+        Response response=usersClient.deleteUserById(userId);
         DeleteUserResponseBody deleteResponse=response.as(DeleteUserResponseBody.class);
+        // 3.Assert
         Assert.assertEquals(deleteResponse.getId(),userId);
-
-
     }
-
 }
