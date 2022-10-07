@@ -20,15 +20,10 @@ public class PostsClient {
                 .get("https://dummyapi.io/data/v1/post/"+postId);
     }
     public Response deletePostById(String postId){
-        Response response = given()
+        return given()
                 .header("app-id", getValidAppId.ValidAppId)
                 .when()
                 .delete("https://dummyapi.io/data/v1/post/" + postId);
-        response
-                .then()
-                .log().body();
-
-        return response;
 
     }
 

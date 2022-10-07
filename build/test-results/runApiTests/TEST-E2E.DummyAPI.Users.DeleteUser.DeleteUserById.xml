@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="E2E.DummyAPI.Users.DeleteUser.DeleteUserById" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-07T11:36:56" hostname="TestVagrants-MacBook-Pro.local" time="0.806">
+<testsuite name="E2E.DummyAPI.Users.DeleteUser.DeleteUserById" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-07T12:07:05" hostname="TestVagrants-MacBook-Pro.local" time="0.846">
   <properties/>
-  <testcase name="deleteUserById" classname="E2E.DummyAPI.Users.DeleteUser.DeleteUserById" time="0.806"/>
+  <testcase name="deleteUserById" classname="E2E.DummyAPI.Users.DeleteUser.DeleteUserById" time="0.846"/>
   <system-out><![CDATA[{
     "data": [
-        {
-            "id": "60d0fe4f5311236168a109e3",
-            "title": "mr",
-            "firstName": "Vetle",
-            "lastName": "Aasland",
-            "picture": "https://randomuser.me/api/portraits/med/men/97.jpg"
-        },
         {
             "id": "60d0fe4f5311236168a109e4",
             "title": "mr",
@@ -73,6 +66,13 @@
             "firstName": "Lucas",
             "lastName": "Larsen",
             "picture": "https://randomuser.me/api/portraits/med/men/50.jpg"
+        },
+        {
+            "id": "60d0fe4f5311236168a109ed",
+            "title": "miss",
+            "firstName": "Kayla",
+            "lastName": "Bredesen",
+            "picture": "https://randomuser.me/api/portraits/med/women/13.jpg"
         }
     ],
     "total": 181,
