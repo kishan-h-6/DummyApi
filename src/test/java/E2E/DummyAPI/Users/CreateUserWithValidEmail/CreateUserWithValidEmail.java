@@ -1,7 +1,7 @@
 package E2E.DummyAPI.Users.CreateUserWithValidEmail;
 
-import E2E.DummyAPI.Users.CreateUserResponse.CreateUserResponse;
-import E2E.DummyAPI.Users.UserRequestBody.CreateUserRequestBody;
+import E2E.DummyAPI.Users.Responses.CreateUserResponse.CreateUserResponse;
+import E2E.DummyAPI.Users.Responses.UserRequestBody.CreateUserRequestBody;
 import E2E.DummyAPI.Users.UsersClient;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;

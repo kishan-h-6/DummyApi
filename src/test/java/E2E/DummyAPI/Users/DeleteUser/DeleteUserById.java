@@ -1,10 +1,9 @@
 package E2E.DummyAPI.Users.DeleteUser;
 
-import E2E.DummyAPI.Users.DeleteUserResponse.DeleteUserResponseBody;
-import E2E.DummyAPI.Users.UserResponseBody.GetUserResponse;
+import E2E.DummyAPI.Users.Responses.DeleteUserResponse.DeleteUserResponseBody;
+import E2E.DummyAPI.Users.Responses.UserResponseBody.GetUserResponse;
 import E2E.DummyAPI.Users.UsersClient;
 import io.restassured.response.Response;
-import org.hamcrest.Matchers;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;

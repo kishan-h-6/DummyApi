@@ -1,30 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="E2E.DummyAPI.Users.GetAllUsers.GetAllUsers" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-06T11:38:15" hostname="TestVagrants-MacBook-Pro.local" time="0.876">
+<testsuite name="E2E.DummyAPI.Users.GetAllUsers.GetAllUsers" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-07T10:20:14" hostname="TestVagrants-MacBook-Pro.local" time="0.385">
   <properties/>
-  <testcase name="getAllUsers" classname="E2E.DummyAPI.Users.GetAllUsers.GetAllUsers" time="0.876"/>
+  <testcase name="getAllUsers" classname="E2E.DummyAPI.Users.GetAllUsers.GetAllUsers" time="0.385"/>
   <system-out><![CDATA[{
     "data": [
-        {
-            "id": "60d0fe4f5311236168a109d5",
-            "title": "mrs",
-            "firstName": "Sibylle",
-            "lastName": "Leibold",
-            "picture": "https://randomuser.me/api/portraits/med/women/89.jpg"
-        },
-        {
-            "id": "60d0fe4f5311236168a109d6",
-            "title": "mrs",
-            "firstName": "Elisa",
-            "lastName": "Lorenzo",
-            "picture": "https://randomuser.me/api/portraits/med/women/89.jpg"
-        },
-        {
-            "id": "60d0fe4f5311236168a109d7",
-            "title": "mr",
-            "firstName": "Leevi",
-            "lastName": "Savela",
-            "picture": "https://randomuser.me/api/portraits/med/men/67.jpg"
-        },
         {
             "id": "60d0fe4f5311236168a109d8",
             "title": "mrs",
@@ -73,6 +52,27 @@
             "firstName": "Bessie",
             "lastName": "Burke",
             "picture": "https://randomuser.me/api/portraits/med/women/72.jpg"
+        },
+        {
+            "id": "60d0fe4f5311236168a109df",
+            "title": "mrs",
+            "firstName": "Anaelle",
+            "lastName": "Dumas",
+            "picture": "https://randomuser.me/api/portraits/med/women/25.jpg"
+        },
+        {
+            "id": "60d0fe4f5311236168a109e0",
+            "title": "miss",
+            "firstName": "Milly",
+            "lastName": "Norman",
+            "picture": "https://randomuser.me/api/portraits/med/women/31.jpg"
+        },
+        {
+            "id": "60d0fe4f5311236168a109e1",
+            "title": "mr",
+            "firstName": "James",
+            "lastName": "Black",
+            "picture": "https://randomuser.me/api/portraits/med/men/29.jpg"
         }
     ],
     "total": 178,

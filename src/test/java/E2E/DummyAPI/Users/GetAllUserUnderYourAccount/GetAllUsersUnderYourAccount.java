@@ -1,7 +1,9 @@
 package E2E.DummyAPI.Users.GetAllUserUnderYourAccount;
 
+import E2E.DummyAPI.Users.Responses.GetAllUsersCreatedByAccount.GetAllUserCreatedByAccountResponse;
 import E2E.DummyAPI.Users.UsersClient;
 import org.hamcrest.Matchers;
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -15,11 +17,8 @@ public class GetAllUsersUnderYourAccount {
     @Test(groups = {"api"})
     public void getAllUsersUnderYouAccount(){
         //Act
-        usersClient.getAllUserUnderYourAccount()
-                .then()
-                //Assert
-                .log().body()
-                .statusCode(200)
-                .body("data", Matchers.notNullValue());
+       GetAllUserCreatedByAccountResponse response= usersClient.getAllUserCreatedByAccount();
+        Assert.assertNotNull(response);
+
     }
 }

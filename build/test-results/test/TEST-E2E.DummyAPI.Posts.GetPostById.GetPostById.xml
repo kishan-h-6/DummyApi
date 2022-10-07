@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="E2E.DummyAPI.Posts.GetPostById.GetPostById" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-10-06T11:38:12" hostname="TestVagrants-MacBook-Pro.local" time="0.106">
+<testsuite name="E2E.DummyAPI.Posts.GetPostById.GetPostById" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-10-07T10:20:11" hostname="TestVagrants-MacBook-Pro.local" time="0.362">
   <properties/>
-  <testcase name="getPostById" classname="E2E.DummyAPI.Posts.GetPostById.GetPostById" time="0.106">
+  <testcase name="getPostById" classname="E2E.DummyAPI.Posts.GetPostById.GetPostById" time="0.362">
     <failure message="java.lang.AssertionError: 1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;404&gt;.
 

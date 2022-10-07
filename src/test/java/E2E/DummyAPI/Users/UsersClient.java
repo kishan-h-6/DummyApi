@@ -1,10 +1,10 @@
 package E2E.DummyAPI.Users;
 
-import E2E.DummyAPI.Users.CreateUserErrorResponse.CreateUserErrorResponse;
-import E2E.DummyAPI.Users.CreateUserResponse.CreateUserResponse;
-import E2E.DummyAPI.Users.GetAllUserResponse.GetAllUserResponse;
-import E2E.DummyAPI.Users.UserRequestBody.CreateUserRequestBody;
-import E2E.getValidUserId;
+import E2E.DummyAPI.Users.Responses.CreateUserErrorResponse.CreateUserErrorResponse;
+import E2E.DummyAPI.Users.Responses.CreateUserResponse.CreateUserResponse;
+import E2E.DummyAPI.Users.Responses.GetAllUserResponse.GetAllUserResponse;
+import E2E.DummyAPI.Users.Responses.GetAllUsersCreatedByAccount.GetAllUserCreatedByAccountResponse;
+import E2E.DummyAPI.Users.Responses.UserRequestBody.CreateUserRequestBody;
 import User.getValidAppId;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -32,6 +32,11 @@ public class UsersClient {
         return allUserResponse;
     }
 
+    public GetAllUserCreatedByAccountResponse getAllUserCreatedByAccount(){
+        Response response=getAllUserUnderYourAccount();
+        GetAllUserCreatedByAccountResponse allUserResponse=response.as(GetAllUserCreatedByAccountResponse.class);
+        return allUserResponse;
+    }
     public Response create(CreateUserRequestBody body){
         return given()
                     .accept(ContentType.JSON)
@@ -45,10 +50,14 @@ public class UsersClient {
 
 
     public Response getAllUsers(){
-        return given()
+        Response response = given()
                 .header("app-id", getValidAppId.ValidAppId)
                 .when()
                 .get("https://dummyapi.io/data/v1/user?limit=10");
+
+        response.then()
+                .log().body();
+        return response;
     }
     public Response getAllUserUnderYourAccount(){
         return given()

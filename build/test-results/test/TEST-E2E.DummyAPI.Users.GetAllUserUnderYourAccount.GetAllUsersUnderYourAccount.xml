@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-06T11:38:14" hostname="TestVagrants-MacBook-Pro.local" time="0.935">
+<testsuite name="E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-07T10:20:13" hostname="TestVagrants-MacBook-Pro.local" time="0.376">
   <properties/>
-  <testcase name="getAllUsersUnderYouAccount" classname="E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount" time="0.935"/>
+  <testcase name="getAllUsersUnderYouAccount" classname="E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount" time="0.376"/>
   <system-out><![CDATA[{
     "data": [
         {
@@ -105,7 +105,7 @@
             "lastName": "rao"
         }
     ],
-    "total": 90,
+    "total": 93,
     "page": 0,
     "limit": 20
 }
