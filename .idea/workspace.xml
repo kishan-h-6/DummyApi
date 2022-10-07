@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9501c177-d484-4d7e-9fa6-a760081f8072" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/DeletePostResponse/DeletePostResponseBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/CreateUserErrorResponse/CreateUserErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/CreateUserErrorResponse/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/CreateUserResponse/CreateUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/DeleteUserResponse/DeleteUserResponseBody.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
@@ -12,45 +17,17 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/E2E/EndToEndTestCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/E2E/EndToEndTestCases.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Posts/DeletePostByValidId/DeletePostById.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Posts/DeletePostByValidId/DeletePostById.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/getValidPostId.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/E2E/getValidPostId.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Posts.GetPostById.GetPostById.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Posts.GetPostById.GetPostById.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Users.DeleteUser.DeleteUserById.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Users.DeleteUser.DeleteUserById.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Users.GetAllUsers.GetAllUsers.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Users.GetAllUsers.GetAllUsers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Posts.CreateNewPost.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Posts.CreateNewPost.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Posts.DeletePostByValidId.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Posts.DeletePostByValidId.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Posts.GetAllPosts.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Posts.GetAllPosts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Posts.GetPostById.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Posts.GetPostById.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Users.CreateUserWithValidEmail.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Users.CreateUserWithValidEmail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Users.DeleteUser.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Users.DeleteUser.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Users.GetAllUserUnderYourAccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Users.GetAllUserUnderYourAccount.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Users.GetAllUsers.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Users.GetAllUsers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Posts.GetPostById.GetPostById.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Posts.GetPostById.GetPostById.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Users.DeleteUser.DeleteUserById.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Users.DeleteUser.DeleteUserById.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Users.GetAllUsers.GetAllUsers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Users.GetAllUsers.GetAllUsers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Posts/PostsClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Posts/PostsClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Users/DeleteUser/DeleteUserById.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Users/DeleteUser/DeleteUserById.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/E2E/EndToEndTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/E2E/EndToEndTestCases.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/DeletePostByValidId/DeletePostById.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/DeletePostByValidId/DeletePostById.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/getValidPostId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/getValidPostId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/PostsClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/PostsClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/CreateUserWithDuplicateEmail/CreateUserWithDuplicateEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/CreateUserWithDuplicateEmail/CreateUserWithDuplicateEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/CreateUserWithValidEmail/CreateUserWithValidEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/CreateUserWithValidEmail/CreateUserWithValidEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/DeleteUser/DeleteUserById.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/DeleteUser/DeleteUserById.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/GetAllUsers/GetAllUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/GetAllUsers/GetAllUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/UsersClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/UsersClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,19 +92,54 @@
       <recent name="E2E.CreateNewUser.Users" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DeletePostById.deletePostById">
-    <configuration name="CreateNewPost.createNewPost" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CreateUserWithValidEmail.createNewUser">
+    <configuration name="CreateUserWithDuplicateEmail.createNewUserWithError" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DummyApi.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="E2E.DummyAPI.Posts.CreateNewPost.*" />
+          <option name="PATTERN" value="E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="E2E.DummyAPI.Posts.CreateNewPost" />
-      <option name="MAIN_CLASS_NAME" value="E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost" />
-      <option name="METHOD_NAME" value="createNewPost" />
+      <option name="PACKAGE_NAME" value="E2E.DummyAPI.Users.CreateUserWithDuplicateEmail" />
+      <option name="MAIN_CLASS_NAME" value="E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail" />
+      <option name="METHOD_NAME" value="createNewUserWithError" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateUserWithValidEmail.createNewUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DummyApi.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="E2E.DummyAPI.Users.CreateUserWithValidEmail.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="E2E.DummyAPI.Users.CreateUserWithValidEmail" />
+      <option name="MAIN_CLASS_NAME" value="E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail" />
+      <option name="METHOD_NAME" value="createNewUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeletePostById" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DummyApi.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="E2E.DummyAPI.Posts.DeletePostByValidId.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="E2E.DummyAPI.Posts.DeletePostByValidId" />
+      <option name="MAIN_CLASS_NAME" value="E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -152,52 +164,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EndToEndTestCases.end2EndTestsCases" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="DeleteUserById.deleteUserById" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DummyApi.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="E2E.DummyAPI.E2E.*" />
+          <option name="PATTERN" value="E2E.DummyAPI.Users.DeleteUser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="E2E.DummyAPI.E2E" />
-      <option name="MAIN_CLASS_NAME" value="E2E.DummyAPI.E2E.EndToEndTestCases" />
-      <option name="METHOD_NAME" value="end2EndTestsCases" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetAllPosts" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DummyApi.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="E2E.DummyAPI.Posts.GetAllPosts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="E2E.DummyAPI.Posts.GetAllPosts" />
-      <option name="MAIN_CLASS_NAME" value="E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetAllPosts.getAllPosts" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DummyApi.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="E2E.DummyAPI.Posts.GetAllPosts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="E2E.DummyAPI.Posts.GetAllPosts" />
-      <option name="MAIN_CLASS_NAME" value="E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts" />
-      <option name="METHOD_NAME" value="getAllPosts" />
+      <option name="PACKAGE_NAME" value="E2E.DummyAPI.Users.DeleteUser" />
+      <option name="MAIN_CLASS_NAME" value="E2E.DummyAPI.Users.DeleteUser.DeleteUserById" />
+      <option name="METHOD_NAME" value="deleteUserById" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -207,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CreateUserWithValidEmail.createNewUser" />
+        <item itemvalue="TestNG.CreateUserWithDuplicateEmail.createNewUserWithError" />
+        <item itemvalue="TestNG.DeleteUserById.deleteUserById" />
         <item itemvalue="TestNG.DeletePostById.deletePostById" />
-        <item itemvalue="TestNG.GetAllPosts.getAllPosts" />
-        <item itemvalue="TestNG.GetAllPosts" />
-        <item itemvalue="TestNG.EndToEndTestCases.end2EndTestsCases" />
-        <item itemvalue="TestNG.CreateNewPost.createNewPost" />
+        <item itemvalue="TestNG.DeletePostById" />
       </list>
     </recent_temporary>
   </component>

@@ -1,12 +1,10 @@
 package E2E.DummyAPI.Users.GetAllUsers;
 
+import E2E.DummyAPI.Users.GetAllUserResponse.GetAllUserResponse;
 import E2E.DummyAPI.Users.UsersClient;
-import org.hamcrest.Matchers;
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
-import static io.restassured.RestAssured.given;
-
 public class GetAllUsers {
     private UsersClient usersClient;
     //Arrange
@@ -14,15 +12,11 @@ public class GetAllUsers {
     public void beforeClass(){
         usersClient = new UsersClient();
     }
-
     @Test(groups = {"api"})
     public void getAllUsers(){
         //Act
-        usersClient.getAllUsers()
-                .then()
-                //Assert
-                .log().body()
-                .statusCode(200)
-                .body("data", Matchers.notNullValue());
+        GetAllUserResponse response=usersClient.getAllUser();
+        Assert.assertNotNull(response);
+
     }
 }
