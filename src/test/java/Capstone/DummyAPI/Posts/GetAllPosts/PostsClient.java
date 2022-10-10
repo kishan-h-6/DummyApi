@@ -1,8 +1,7 @@
 package Capstone.DummyAPI.Posts.GetAllPosts;
 
-import User.getValidAppId;
+import Capstone.getValidAppId;
 import io.restassured.response.Response;
-
 import static io.restassured.RestAssured.given;
 
 public class PostsClient {

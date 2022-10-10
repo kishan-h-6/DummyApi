@@ -1,8 +1,7 @@
 package Capstone.DummyAPI.Posts.DeletePostByValidId;
 
-import User.getValidAppId;
+import Capstone.getValidAppId;
 import io.restassured.response.Response;
-
 import static io.restassured.RestAssured.given;
 
 public class PostsClient {

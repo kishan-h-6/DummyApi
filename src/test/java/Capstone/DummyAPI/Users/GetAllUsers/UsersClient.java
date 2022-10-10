@@ -1,7 +1,7 @@
 package Capstone.DummyAPI.Users.GetAllUsers;
 
 import Capstone.DummyAPI.Users.GetAllUsers.GetAllUserResponse.GetAllUserResponse;
-import User.getValidAppId;
+import Capstone.getValidAppId;
 import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.given;

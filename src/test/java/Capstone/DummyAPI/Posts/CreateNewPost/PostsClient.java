@@ -1,6 +1,7 @@
 package Capstone.DummyAPI.Posts.CreateNewPost;
 
 import Capstone.DummyAPI.Posts.CreateNewPost.PostRequestBody.CreatePostRequestBody;
+import Capstone.getValidAppId;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
@@ -11,7 +12,7 @@ public class PostsClient {
         Response response = given()
                                 .accept(ContentType.JSON)
                                 .contentType(ContentType.JSON)
-                                .header("app-id", "633c1299e9593a1f5e8b8758")
+                                .header("app-id", getValidAppId.ValidAppId)
                                 .body(body)
                             .when()
                                 .post("https://dummyapi.io/data/v1/post/create");

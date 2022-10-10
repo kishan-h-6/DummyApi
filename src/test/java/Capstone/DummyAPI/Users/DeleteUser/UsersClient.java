@@ -1,5 +1,5 @@
 package Capstone.DummyAPI.Users.DeleteUser;
-import User.getValidAppId;
+import Capstone.getValidAppId;
 import io.restassured.response.Response;
 
 import static io.restassured.RestAssured.given;
