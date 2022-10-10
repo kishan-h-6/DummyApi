@@ -15,15 +15,15 @@ public class CreateUserWithValidEmail {
     @Test(groups = {"api"})
     public void createNewUser(){
         // 1.Arrange
-        String firstName="kishan";
-        String lastName="rao";
-        String email=String.format(UUID.randomUUID()+"@gmail.com");
+        String firstName = "kishan";
+        String lastName = "rao";
+        String email = String.format(UUID.randomUUID()+"@gmail.com");
         // 2.Act
         CreateUserRequestBody requestBody = CreateUserRequestBody.builder()
                                             .firstName(firstName)
                                             .lastName(lastName)
                                             .email(email).build();
-        CreateUserResponse response=usersClient.createUser(requestBody);
+        CreateUserResponse response = usersClient.createUser(requestBody);
         // 3.Assert
         Assert.assertNotNull(response);
     }

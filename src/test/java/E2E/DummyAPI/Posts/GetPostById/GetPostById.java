@@ -15,8 +15,8 @@ public class GetPostById {
     @Test(groups = "api")
     public void getPostById(){
              // 2.Act
-             Response idResponse= postsClient.getAllPosts();
-             getAllResponseBody getAll=idResponse.as(getAllResponseBody.class);
+             Response idResponse = postsClient.getAllPosts();
+             getAllResponseBody getAll = idResponse.as(getAllResponseBody.class);
              String postId= getAll.getData().get(0).getId();
 
              Response response= postsClient.getPostById(postId);

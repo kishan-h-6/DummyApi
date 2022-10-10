@@ -11,7 +11,7 @@ public class GetAllUsers {
     @Test(groups = "api")
     public void getAllUsers(){
         // 2.Act
-        GetAllUserResponse response=usersClient.getAllUser();
+        GetAllUserResponse response = usersClient.getAllUser();
         // 3.Assert
         Assert.assertNotNull(response);
     }

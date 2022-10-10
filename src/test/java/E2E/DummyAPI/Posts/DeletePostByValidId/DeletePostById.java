@@ -16,8 +16,8 @@ public class DeletePostById {
     @Test(groups = {"api"})
     public void deletePostById(){
         // 2.Act
-        Response response= postsClient.getAllPosts();
-        getAllResponseBody getAll=response.as(getAllResponseBody.class);
+        Response response = postsClient.getAllPosts();
+        getAllResponseBody getAll = response.as(getAllResponseBody.class);
         String postId= getAll.getData().get(0).getId();
 
         Response response1 = postsClient.deletePostById(postId);

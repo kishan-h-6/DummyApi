@@ -34,11 +34,8 @@ public class PostsClient {
                                 .header("app-id", "633c1299e9593a1f5e8b8758")
                                 .body(body)
                             .when()
-                            .post("https://dummyapi.io/data/v1/post/create");
-                             response.then().log().body();
-                             return response;
+                                .post("https://dummyapi.io/data/v1/post/create");
+                            response.then().log().body();
+                            return response;
     }
-
-
-
 }

@@ -18,7 +18,7 @@ public class CreateUserWithDuplicateEmail {
                                                     .firstName("kishan")
                                                     .lastName("rao")
                                                     .email("k344@gmail.com").build();
-                CreateUserErrorResponse errorResponse=usersClient.createUserExpectingError(requestBody);
+                CreateUserErrorResponse errorResponse = usersClient.createUserExpectingError(requestBody);
                 // 3.Assert
                 Assert.assertEquals(errorResponse.getData().getEmail(),"Email already used");
     }

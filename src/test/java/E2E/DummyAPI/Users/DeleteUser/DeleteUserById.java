@@ -18,10 +18,10 @@ public class DeleteUserById {
     public void deleteUserById(){
         Response allUsers = usersClient.getAllUsers();
         GetUserResponse getUserResponse = allUsers.as(GetUserResponse.class);
-        String userId= getUserResponse.getData().get(0).getId();
+        String userId = getUserResponse.getData().get(0).getId();
         // 2.Act
-        Response response=usersClient.deleteUserById(userId);
-        DeleteUserResponseBody deleteResponse=response.as(DeleteUserResponseBody.class);
+        Response response = usersClient.deleteUserById(userId);
+        DeleteUserResponseBody deleteResponse = response.as(DeleteUserResponseBody.class);
         // 3.Assert
         Assert.assertEquals(deleteResponse.getId(),userId);
     }

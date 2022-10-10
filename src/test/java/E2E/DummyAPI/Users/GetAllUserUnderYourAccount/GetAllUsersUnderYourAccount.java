@@ -11,7 +11,7 @@ public class GetAllUsersUnderYourAccount {
     @Test(groups = {"api"})
     public void getAllUsersUnderYouAccount(){
         // 2.Act
-        GetAllUserCreatedByAccountResponse response= usersClient.getAllUserCreatedByAccount();
+        GetAllUserCreatedByAccountResponse response = usersClient.getAllUserCreatedByAccount();
         // 3.Assert
         Assert.assertNotNull(response);
     }

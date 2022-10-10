@@ -13,27 +13,26 @@ import static io.restassured.RestAssured.given;
 
 
 public class UsersClient {
-
     public CreateUserResponse createUser(CreateUserRequestBody body){
-    Response response=create(body);
-    CreateUserResponse createUserResponse=response.as(CreateUserResponse.class);
-    return createUserResponse;
+        Response response = create(body);
+        CreateUserResponse createUserResponse = response.as(CreateUserResponse.class);
+        return createUserResponse;
     }
 
     public CreateUserErrorResponse createUserExpectingError(CreateUserRequestBody body){
-        Response response=create(body);
+        Response response = create(body);
         CreateUserErrorResponse errorResponse=response.as(CreateUserErrorResponse.class);
         return errorResponse;
     }
 
     public GetAllUserResponse getAllUser(){
-        Response response=getAllUsers();
+        Response response = getAllUsers();
         GetAllUserResponse allUserResponse=response.as(GetAllUserResponse.class);
         return allUserResponse;
     }
 
     public GetAllUserCreatedByAccountResponse getAllUserCreatedByAccount(){
-        Response response=getAllUserUnderYourAccount();
+        Response response = getAllUserUnderYourAccount();
         GetAllUserCreatedByAccountResponse allUserResponse=response.as(GetAllUserCreatedByAccountResponse.class);
         return allUserResponse;
     }
@@ -46,8 +45,6 @@ public class UsersClient {
                 .when()
                      .post("https://dummyapi.io/data/v1/user/create");
     }
-
-
 
     public Response getAllUsers(){
         Response response = given()
@@ -67,7 +64,6 @@ public class UsersClient {
     }
 
     public Response deleteUserById(String userId){
-
         return given()
                 .header("app-id", getValidAppId.ValidAppId)
                 .when()
