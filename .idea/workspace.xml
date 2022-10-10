@@ -7,6 +7,47 @@
     <list default="true" id="9501c177-d484-4d7e-9fa6-a760081f8072" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/E2E/EndToEndTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/E2E/EndToEndTestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/CreateNewPost/CreateNewPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Posts/CreateNewPost/CreateNewPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/CreateNewPost/PostRequestBody/CreatePostRequestBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Posts/CreateNewPost/PostRequestBody/CreatePostRequestBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/CreateNewPost/PostResponseBody/CreatePostResponseBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Posts/CreateNewPost/PostResponseBody/CreatePostResponseBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/CreateNewPost/PostResponseBody/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Posts/CreateNewPost/PostResponseBody/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/CreateNewPost/PostsClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Posts/CreateNewPost/PostsClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/DeletePostByValidId/DeletePostById.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Posts/DeletePostByValidId/DeletePostById.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/DeletePostByValidId/DeletePostResponse/DeletePostResponseBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Posts/DeletePostByValidId/DeletePostResponse/DeletePostResponseBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/DeletePostByValidId/PostsClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Posts/DeletePostByValidId/PostsClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/GetAllPosts/GetAllPosts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Posts/GetAllPosts/GetAllPosts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/GetAllPosts/GetAllPostsResponseBody/DataItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Posts/GetAllPosts/GetAllPostsResponseBody/DataItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/GetAllPosts/GetAllPostsResponseBody/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Posts/GetAllPosts/GetAllPostsResponseBody/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/GetAllPosts/GetAllPostsResponseBody/getAllResponseBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Posts/GetAllPosts/GetAllPostsResponseBody/getAllResponseBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/GetAllPosts/PostsClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Posts/GetAllPosts/PostsClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/GetPostById/GetPostById.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Posts/GetPostById/GetPostById.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/GetPostById/GetPostByIdResponse/GetPostByIdResponseBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Posts/GetPostById/GetPostByIdResponse/GetPostByIdResponseBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/GetPostById/GetPostByIdResponse/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Posts/GetPostById/GetPostByIdResponse/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/GetPostById/PostsClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Posts/GetPostById/PostsClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/CreateUserWithDuplicateEmail/CreateUserErrorResponse/CreateUserErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/CreateUserWithDuplicateEmail/CreateUserErrorResponse/CreateUserErrorResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/CreateUserWithDuplicateEmail/CreateUserErrorResponse/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/CreateUserWithDuplicateEmail/CreateUserErrorResponse/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/CreateUserWithDuplicateEmail/CreateUserWithDuplicateEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/CreateUserWithDuplicateEmail/CreateUserWithDuplicateEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/CreateUserWithDuplicateEmail/UserRequestBody/CreateUserRequestBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/CreateUserWithDuplicateEmail/UserRequestBody/CreateUserRequestBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/CreateUserWithDuplicateEmail/UsersClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/CreateUserWithDuplicateEmail/UsersClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/CreateUserWithValidEmail/CreateUserResponse/CreateUserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/CreateUserWithValidEmail/CreateUserResponse/CreateUserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/CreateUserWithValidEmail/CreateUserWithValidEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/CreateUserWithValidEmail/CreateUserWithValidEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/CreateUserWithValidEmail/UserRequestBody/CreateUserRequestBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/CreateUserWithValidEmail/UserRequestBody/CreateUserRequestBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/CreateUserWithValidEmail/UsersClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/CreateUserWithValidEmail/UsersClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/DeleteUser/DeleteUserById.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/DeleteUser/DeleteUserById.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/DeleteUser/DeleteUserResponse/DeleteUserResponseBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/DeleteUser/DeleteUserResponse/DeleteUserResponseBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/DeleteUser/UsersClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/DeleteUser/UsersClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/GetAllUserUnderYourAccount/GetAllUsersCreatedByAccount/DataItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/GetAllUserUnderYourAccount/GetAllUsersCreatedByAccount/DataItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/GetAllUserUnderYourAccount/GetAllUsersCreatedByAccount/GetAllUserCreatedByAccountResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/GetAllUserUnderYourAccount/GetAllUsersCreatedByAccount/GetAllUserCreatedByAccountResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/GetAllUserUnderYourAccount/GetAllUsersUnderYourAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/GetAllUserUnderYourAccount/GetAllUsersUnderYourAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/GetAllUserUnderYourAccount/UsersClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/GetAllUserUnderYourAccount/UsersClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/GetAllUsers/GetAllUserResponse/DataItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/GetAllUsers/GetAllUserResponse/DataItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/GetAllUsers/GetAllUserResponse/GetAllUserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/GetAllUsers/GetAllUserResponse/GetAllUserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/GetAllUsers/GetAllUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/GetAllUsers/GetAllUsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/GetAllUsers/UsersClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/GetAllUsers/UsersClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/getValidAppId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/getValidAppId.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/User/getValidAppId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/User/getValidPostId.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,12 +120,12 @@
       <module name="DummyApi.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="E2E.DummyAPI.Posts.CreateNewPost.*" />
+          <option name="PATTERN" value="Capstone.DummyAPI.Posts.CreateNewPost.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="E2E.DummyAPI.Posts.CreateNewPost" />
-      <option name="MAIN_CLASS_NAME" value="E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost" />
+      <option name="MAIN_CLASS_NAME" value="Capstone.DummyAPI.Posts.CreateNewPost.CreateNewPost" />
       <option name="METHOD_NAME" value="createNewPost" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -97,12 +138,12 @@
       <module name="DummyApi.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="E2E.DummyAPI.Users.CreateUserWithValidEmail.*" />
+          <option name="PATTERN" value="Capstone.DummyAPI.Users.CreateUserWithValidEmail.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="E2E.DummyAPI.Users.CreateUserWithValidEmail" />
-      <option name="MAIN_CLASS_NAME" value="E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail" />
+      <option name="MAIN_CLASS_NAME" value="Capstone.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -114,12 +155,12 @@
       <module name="DummyApi.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="E2E.DummyAPI.Users.DeleteUser.*" />
+          <option name="PATTERN" value="Capstone.DummyAPI.Users.DeleteUser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="E2E.DummyAPI.Users.DeleteUser" />
-      <option name="MAIN_CLASS_NAME" value="E2E.DummyAPI.Users.DeleteUser.DeleteUserById" />
+      <option name="MAIN_CLASS_NAME" value="Capstone.DummyAPI.Users.DeleteUser.DeleteUserById" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -131,12 +172,12 @@
       <module name="DummyApi.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="E2E.DummyAPI.Users.GetAllUserUnderYourAccount.*" />
+          <option name="PATTERN" value="Capstone.DummyAPI.Users.GetAllUserUnderYourAccount.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="E2E.DummyAPI.Users.GetAllUserUnderYourAccount" />
-      <option name="MAIN_CLASS_NAME" value="E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount" />
+      <option name="MAIN_CLASS_NAME" value="Capstone.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount" />
       <option name="METHOD_NAME" value="getAllUsersUnderYouAccount" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -149,12 +190,12 @@
       <module name="DummyApi.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="E2E.DummyAPI.Users.GetAllUsers.*" />
+          <option name="PATTERN" value="Capstone.DummyAPI.Users.GetAllUsers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="E2E.DummyAPI.Users.GetAllUsers" />
-      <option name="MAIN_CLASS_NAME" value="E2E.DummyAPI.Users.GetAllUsers.GetAllUsers" />
+      <option name="MAIN_CLASS_NAME" value="Capstone.DummyAPI.Users.GetAllUsers.GetAllUsers" />
       <option name="METHOD_NAME" value="getAllUsers" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
