@@ -1,14 +1,11 @@
 package E2E.DummyAPI.Users.DeleteUser;
 
-import E2E.DummyAPI.Users.Responses.DeleteUserResponse.DeleteUserResponseBody;
-import E2E.DummyAPI.Users.Responses.UserResponseBody.GetUserResponse;
-import E2E.DummyAPI.Users.UsersClient;
+import E2E.DummyAPI.Users.DeleteUser.DeleteUserResponse.DeleteUserResponseBody;
+import E2E.DummyAPI.Users.GetAllUsers.GetAllUserResponse.GetAllUserResponse;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
-import static io.restassured.RestAssured.given;
 
 public class DeleteUserById {
     private UsersClient usersClient;
@@ -17,7 +14,7 @@ public class DeleteUserById {
     @Test(groups = {"api"})
     public void deleteUserById(){
         Response allUsers = usersClient.getAllUsers();
-        GetUserResponse getUserResponse = allUsers.as(GetUserResponse.class);
+        GetAllUserResponse getUserResponse = allUsers.as(GetAllUserResponse.class);
         String userId = getUserResponse.getData().get(0).getId();
         // 2.Act
         Response response = usersClient.deleteUserById(userId);

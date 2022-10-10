@@ -1,7 +1,6 @@
 package E2E.DummyAPI.Users.CreateUserWithDuplicateEmail;
-import E2E.DummyAPI.Users.Responses.CreateUserErrorResponse.CreateUserErrorResponse;
-import E2E.DummyAPI.Users.Responses.UserRequestBody.CreateUserRequestBody;
-import E2E.DummyAPI.Users.UsersClient;
+import E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserErrorResponse.CreateUserErrorResponse;
+import E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.UserRequestBody.CreateUserRequestBody;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;

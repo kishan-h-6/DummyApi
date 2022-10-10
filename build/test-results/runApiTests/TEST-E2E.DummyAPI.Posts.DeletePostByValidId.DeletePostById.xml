@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-07T12:07:02" hostname="TestVagrants-MacBook-Pro.local" time="0.993">
+<testsuite name="E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-10T08:05:19" hostname="TestVagrants-MacBook-Pro.local" time="1.178">
   <properties/>
-  <testcase name="deletePostById" classname="E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById" time="0.993"/>
-  <system-out><![CDATA[{
-    "id": "634016664887a27887c1a704"
-}
-]]></system-out>
+  <testcase name="deletePostById" classname="E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById" time="1.178"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

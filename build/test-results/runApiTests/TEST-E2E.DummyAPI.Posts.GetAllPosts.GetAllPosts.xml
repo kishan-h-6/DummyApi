@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-07T12:07:03" hostname="TestVagrants-MacBook-Pro.local" time="0.505">
+<testsuite name="E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-10T08:05:20" hostname="TestVagrants-MacBook-Pro.local" time="0.625">
   <properties/>
-  <testcase name="getAllPosts" classname="E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts" time="0.505"/>
+  <testcase name="getAllPosts" classname="E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts" time="0.625"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

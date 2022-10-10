@@ -1,6 +1,5 @@
 package E2E.DummyAPI.Users.GetAllUserUnderYourAccount;
-import E2E.DummyAPI.Users.Responses.GetAllUsersCreatedByAccount.GetAllUserCreatedByAccountResponse;
-import E2E.DummyAPI.Users.UsersClient;
+import E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersCreatedByAccount.GetAllUserCreatedByAccountResponse;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;

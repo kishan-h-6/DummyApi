@@ -1,13 +1,12 @@
 package E2E.DummyAPI.Posts.DeletePostByValidId;
-import E2E.DummyAPI.Posts.Responses.DeletePostResponse.DeletePostResponseBody;
-import E2E.DummyAPI.Posts.Responses.GetAllPostsResponseBody.getAllResponseBody;
-import E2E.DummyAPI.Posts.PostsClient;
+import E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostResponse.DeletePostResponseBody;
+import E2E.DummyAPI.Posts.GetAllPosts.GetAllPostsResponseBody.getAllResponseBody;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class DeletePostById {
+public class DeletePostById  extends PostsClient{
     private PostsClient postsClient;
     @BeforeClass // 1.Arrange
     public void beforeClass(){

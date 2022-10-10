@@ -1,108 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="10" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-07T17:36:59 IST" name="Gradle suite" finished-at="2022-10-07T17:37:07 IST" duration-ms="7311">
+  <suite started-at="2022-10-10T13:35:17 IST" name="Gradle suite" finished-at="2022-10-10T13:35:25 IST" duration-ms="7365">
     <groups>
       <group name="api">
-        <method signature="CreateNewPost.createNewPost()[pri:0, instance:E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost@4066c471]" name="createNewPost" class="E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost"/>
-        <method signature="DeletePostById.deletePostById()[pri:0, instance:E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById@2b175c00]" name="deletePostById" class="E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById"/>
-        <method signature="GetAllPosts.getAllPosts()[pri:0, instance:E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts@3eb81efb]" name="getAllPosts" class="E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts"/>
-        <method signature="GetPostById.getPostById()[pri:0, instance:E2E.DummyAPI.Posts.GetPostById.GetPostById@1ae8bcbc]" name="getPostById" class="E2E.DummyAPI.Posts.GetPostById.GetPostById"/>
-        <method signature="CreateUserWithDuplicateEmail.createNewUserWithError()[pri:0, instance:E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail@6cdba6dc]" name="createNewUserWithError" class="E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail"/>
-        <method signature="CreateUserWithValidEmail.createNewUser()[pri:0, instance:E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail@7d3d101b]" name="createNewUser" class="E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail"/>
-        <method signature="DeleteUserById.deleteUserById()[pri:0, instance:E2E.DummyAPI.Users.DeleteUser.DeleteUserById@30c8681]" name="deleteUserById" class="E2E.DummyAPI.Users.DeleteUser.DeleteUserById"/>
-        <method signature="GetAllUsersUnderYourAccount.getAllUsersUnderYouAccount()[pri:0, instance:E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount@5cdec700]" name="getAllUsersUnderYouAccount" class="E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount"/>
-        <method signature="GetAllUsers.getAllUsers()[pri:0, instance:E2E.DummyAPI.Users.GetAllUsers.GetAllUsers@6d026701]" name="getAllUsers" class="E2E.DummyAPI.Users.GetAllUsers.GetAllUsers"/>
+        <method signature="CreateNewPost.createNewPost()[pri:0, instance:E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost@7d3d101b]" name="createNewPost" class="E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost"/>
+        <method signature="DeletePostById.deletePostById()[pri:0, instance:E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById@2812b107]" name="deletePostById" class="E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById"/>
+        <method signature="GetAllPosts.getAllPosts()[pri:0, instance:E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts@df6620a]" name="getAllPosts" class="E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts"/>
+        <method signature="GetPostById.getPostById()[pri:0, instance:E2E.DummyAPI.Posts.GetPostById.GetPostById@4e31276e]" name="getPostById" class="E2E.DummyAPI.Posts.GetPostById.GetPostById"/>
+        <method signature="CreateUserWithDuplicateEmail.createNewUserWithError()[pri:0, instance:E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail@1a72a540]" name="createNewUserWithError" class="E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail"/>
+        <method signature="CreateUserWithValidEmail.createNewUser()[pri:0, instance:E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail@27d5a580]" name="createNewUser" class="E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail"/>
+        <method signature="DeleteUserById.deleteUserById()[pri:0, instance:E2E.DummyAPI.Users.DeleteUser.DeleteUserById@198d6542]" name="deleteUserById" class="E2E.DummyAPI.Users.DeleteUser.DeleteUserById"/>
+        <method signature="GetAllUsersUnderYourAccount.getAllUsersUnderYouAccount()[pri:0, instance:E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount@5e403b4a]" name="getAllUsersUnderYouAccount" class="E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount"/>
+        <method signature="GetAllUsers.getAllUsers()[pri:0, instance:E2E.DummyAPI.Users.GetAllUsers.GetAllUsers@5117dd67]" name="getAllUsers" class="E2E.DummyAPI.Users.GetAllUsers.GetAllUsers"/>
       </group> <!-- api -->
     </groups>
-    <test started-at="2022-10-07T17:36:59 IST" name="Gradle test" finished-at="2022-10-07T17:37:07 IST" duration-ms="7311">
+    <test started-at="2022-10-10T13:35:17 IST" name="Gradle test" finished-at="2022-10-10T13:35:25 IST" duration-ms="7365">
       <class name="E2E.DummyAPI.Users.DeleteUser.DeleteUserById">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:E2E.DummyAPI.Users.DeleteUser.DeleteUserById@30c8681]" started-at="2022-10-07T17:37:05 IST" name="beforeClass" finished-at="2022-10-07T17:37:05 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:E2E.DummyAPI.Users.DeleteUser.DeleteUserById@198d6542]" started-at="2022-10-10T13:35:23 IST" name="beforeClass" finished-at="2022-10-10T13:35:23 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="deleteUserById()[pri:0, instance:E2E.DummyAPI.Users.DeleteUser.DeleteUserById@30c8681]" started-at="2022-10-07T17:37:05 IST" name="deleteUserById" finished-at="2022-10-07T17:37:06 IST" duration-ms="846" status="PASS">
+        <test-method signature="deleteUserById()[pri:0, instance:E2E.DummyAPI.Users.DeleteUser.DeleteUserById@198d6542]" started-at="2022-10-10T13:35:23 IST" name="deleteUserById" finished-at="2022-10-10T13:35:24 IST" duration-ms="811" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUserById -->
       </class> <!-- E2E.DummyAPI.Users.DeleteUser.DeleteUserById -->
       <class name="E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount@5cdec700]" started-at="2022-10-07T17:37:06 IST" name="beforeClass" finished-at="2022-10-07T17:37:06 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount@5e403b4a]" started-at="2022-10-10T13:35:24 IST" name="beforeClass" finished-at="2022-10-10T13:35:24 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="getAllUsersUnderYouAccount()[pri:0, instance:E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount@5cdec700]" started-at="2022-10-07T17:37:06 IST" name="getAllUsersUnderYouAccount" finished-at="2022-10-07T17:37:06 IST" duration-ms="354" status="PASS">
+        <test-method signature="getAllUsersUnderYouAccount()[pri:0, instance:E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount@5e403b4a]" started-at="2022-10-10T13:35:24 IST" name="getAllUsersUnderYouAccount" finished-at="2022-10-10T13:35:24 IST" duration-ms="493" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllUsersUnderYouAccount -->
       </class> <!-- E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount -->
       <class name="E2E.DummyAPI.Posts.GetPostById.GetPostById">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:E2E.DummyAPI.Posts.GetPostById.GetPostById@1ae8bcbc]" started-at="2022-10-07T17:37:03 IST" name="beforeClass" finished-at="2022-10-07T17:37:03 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:E2E.DummyAPI.Posts.GetPostById.GetPostById@4e31276e]" started-at="2022-10-10T13:35:21 IST" name="beforeClass" finished-at="2022-10-10T13:35:21 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="getPostById()[pri:0, instance:E2E.DummyAPI.Posts.GetPostById.GetPostById@1ae8bcbc]" started-at="2022-10-07T17:37:03 IST" name="getPostById" finished-at="2022-10-07T17:37:04 IST" duration-ms="922" status="PASS">
+        <test-method signature="getPostById()[pri:0, instance:E2E.DummyAPI.Posts.GetPostById.GetPostById@4e31276e]" started-at="2022-10-10T13:35:21 IST" name="getPostById" finished-at="2022-10-10T13:35:22 IST" duration-ms="977" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPostById -->
       </class> <!-- E2E.DummyAPI.Posts.GetPostById.GetPostById -->
       <class name="E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById@2b175c00]" started-at="2022-10-07T17:37:02 IST" name="beforeClass" finished-at="2022-10-07T17:37:02 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById@2812b107]" started-at="2022-10-10T13:35:19 IST" name="beforeClass" finished-at="2022-10-10T13:35:19 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="deletePostById()[pri:0, instance:E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById@2b175c00]" started-at="2022-10-07T17:37:02 IST" name="deletePostById" finished-at="2022-10-07T17:37:03 IST" duration-ms="993" status="PASS">
+        <test-method signature="deletePostById()[pri:0, instance:E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById@2812b107]" started-at="2022-10-10T13:35:19 IST" name="deletePostById" finished-at="2022-10-10T13:35:20 IST" duration-ms="1178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePostById -->
       </class> <!-- E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById -->
       <class name="E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts@3eb81efb]" started-at="2022-10-07T17:37:03 IST" name="beforeClass" finished-at="2022-10-07T17:37:03 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts@df6620a]" started-at="2022-10-10T13:35:20 IST" name="beforeClass" finished-at="2022-10-10T13:35:20 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="getAllPosts()[pri:0, instance:E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts@3eb81efb]" started-at="2022-10-07T17:37:03 IST" name="getAllPosts" finished-at="2022-10-07T17:37:03 IST" duration-ms="505" status="PASS">
+        <test-method signature="getAllPosts()[pri:0, instance:E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts@df6620a]" started-at="2022-10-10T13:35:20 IST" name="getAllPosts" finished-at="2022-10-10T13:35:21 IST" duration-ms="625" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllPosts -->
       </class> <!-- E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts -->
       <class name="E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost@4066c471]" started-at="2022-10-07T17:36:59 IST" name="beforeClass" finished-at="2022-10-07T17:36:59 IST" duration-ms="22" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost@7d3d101b]" started-at="2022-10-10T13:35:17 IST" name="beforeClass" finished-at="2022-10-10T13:35:17 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="createNewPost()[pri:0, instance:E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost@4066c471]" started-at="2022-10-07T17:36:59 IST" name="createNewPost" finished-at="2022-10-07T17:37:02 IST" duration-ms="2497" status="PASS">
+        <test-method signature="createNewPost()[pri:0, instance:E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost@7d3d101b]" started-at="2022-10-10T13:35:17 IST" name="createNewPost" finished-at="2022-10-10T13:35:19 IST" duration-ms="2010" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewPost -->
       </class> <!-- E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost -->
       <class name="E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail@7d3d101b]" started-at="2022-10-07T17:37:05 IST" name="beforeClass" finished-at="2022-10-07T17:37:05 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail@27d5a580]" started-at="2022-10-10T13:35:22 IST" name="beforeClass" finished-at="2022-10-10T13:35:22 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="createNewUser()[pri:0, instance:E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail@7d3d101b]" started-at="2022-10-07T17:37:05 IST" name="createNewUser" finished-at="2022-10-07T17:37:05 IST" duration-ms="352" status="PASS">
+        <test-method signature="createNewUser()[pri:0, instance:E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail@27d5a580]" started-at="2022-10-10T13:35:22 IST" name="createNewUser" finished-at="2022-10-10T13:35:23 IST" duration-ms="395" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewUser -->
       </class> <!-- E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail -->
       <class name="E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail@6cdba6dc]" started-at="2022-10-07T17:37:04 IST" name="beforeClass" finished-at="2022-10-07T17:37:04 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail@1a72a540]" started-at="2022-10-10T13:35:22 IST" name="beforeClass" finished-at="2022-10-10T13:35:22 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="createNewUserWithError()[pri:0, instance:E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail@6cdba6dc]" started-at="2022-10-07T17:37:04 IST" name="createNewUserWithError" finished-at="2022-10-07T17:37:05 IST" duration-ms="364" status="PASS">
+        <test-method signature="createNewUserWithError()[pri:0, instance:E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail@1a72a540]" started-at="2022-10-10T13:35:22 IST" name="createNewUserWithError" finished-at="2022-10-10T13:35:22 IST" duration-ms="400" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewUserWithError -->
       </class> <!-- E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail -->
       <class name="E2E.DummyAPI.Users.GetAllUsers.GetAllUsers">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:E2E.DummyAPI.Users.GetAllUsers.GetAllUsers@6d026701]" started-at="2022-10-07T17:37:06 IST" name="beforeClass" finished-at="2022-10-07T17:37:06 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:E2E.DummyAPI.Users.GetAllUsers.GetAllUsers@5117dd67]" started-at="2022-10-10T13:35:24 IST" name="beforeClass" finished-at="2022-10-10T13:35:24 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="getAllUsers()[pri:0, instance:E2E.DummyAPI.Users.GetAllUsers.GetAllUsers@6d026701]" started-at="2022-10-07T17:37:06 IST" name="getAllUsers" finished-at="2022-10-07T17:37:07 IST" duration-ms="383" status="PASS">
+        <test-method signature="getAllUsers()[pri:0, instance:E2E.DummyAPI.Users.GetAllUsers.GetAllUsers@5117dd67]" started-at="2022-10-10T13:35:24 IST" name="getAllUsers" finished-at="2022-10-10T13:35:25 IST" duration-ms="403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllUsers -->

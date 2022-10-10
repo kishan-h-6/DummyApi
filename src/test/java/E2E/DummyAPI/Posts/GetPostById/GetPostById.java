@@ -1,6 +1,5 @@
 package E2E.DummyAPI.Posts.GetPostById;
-import E2E.DummyAPI.Posts.PostsClient;
-import E2E.DummyAPI.Posts.Responses.GetAllPostsResponseBody.getAllResponseBody;
+import E2E.DummyAPI.Posts.GetAllPosts.GetAllPostsResponseBody.getAllResponseBody;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
