@@ -5,177 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9501c177-d484-4d7e-9fa6-a760081f8072" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/DeletePostByValidId/PostsClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/GetAllPosts/PostsClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/GetPostById/GetPostByIdResponse/GetPostByIdResponseBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/GetPostById/GetPostByIdResponse/Owner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/GetPostById/PostsClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/CreateUserWithValidEmail/UserRequestBody/CreateUserRequestBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/CreateUserWithValidEmail/UsersClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/DeleteUser/UsersClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/GetAllUserUnderYourAccount/UsersClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/GetAllUsers/UsersClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/E2E/EndToEndTestCases.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Posts/CreateNewPost/CreateNewPost.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Posts/CreateNewPost/CreateNewPost.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Posts/DeletePostByValidId/DeletePostById.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Posts/DeletePostByValidId/DeletePostById.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Posts/GetAllPosts/GetAllPosts.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Posts/GetAllPosts/GetAllPosts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Posts/GetPostById/GetPostById.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Posts/GetPostById/GetPostById.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Posts/PostsClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Posts/Responses/DeletePostResponse/DeletePostResponseBody.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Posts/Responses/GetAllPostsResponseBody/DataItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Posts/Responses/GetAllPostsResponseBody/Owner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Posts/Responses/GetAllPostsResponseBody/getAllResponseBody.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Posts/Responses/PostRequestBody/CreatePostRequestBody$CreatePostRequestBodyBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Posts/Responses/PostRequestBody/CreatePostRequestBody.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Posts/Responses/PostResponseBody/CreatePostResponseBody.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Posts/Responses/PostResponseBody/Owner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Users/CreateUserWithDuplicateEmail/CreateUserWithDuplicateEmail.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Users/CreateUserWithDuplicateEmail/CreateUserWithDuplicateEmail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Users/CreateUserWithValidEmail/CreateUserWithValidEmail.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Users/CreateUserWithValidEmail/CreateUserWithValidEmail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Users/DeleteUser/DeleteUserById.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Users/DeleteUser/DeleteUserById.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Users/GetAllUserUnderYourAccount/GetAllUsersUnderYourAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Users/GetAllUserUnderYourAccount/GetAllUsersUnderYourAccount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Users/GetAllUsers/GetAllUsers.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Users/GetAllUsers/GetAllUsers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Users/Responses/CreateUserErrorResponse/CreateUserErrorResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Users/Responses/CreateUserErrorResponse/Data.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Users/Responses/CreateUserResponse/CreateUserResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Users/Responses/DeleteUserResponse/DeleteUserResponseBody.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Users/Responses/GetAllUserResponse/DataItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Users/Responses/GetAllUserResponse/GetAllUserResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Users/Responses/GetAllUsersCreatedByAccount/DataItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Users/Responses/GetAllUsersCreatedByAccount/GetAllUserCreatedByAccountResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Users/Responses/UserRequestBody/CreateUserRequestBody$CreateUserRequestBodyBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Users/Responses/UserRequestBody/CreateUserRequestBody.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Users/Responses/UserResponseBody/DataItem.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Users/Responses/UserResponseBody/GetUserResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/DummyAPI/Users/UsersClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/getValidPostId.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/E2E/getValidUserId.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/Gradle suite/Gradle test.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/Gradle suite/Gradle test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/Gradle suite/Gradle test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/Gradle suite/Gradle test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/Gradle suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/Gradle suite/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/classes/E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/classes/E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/classes/E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/classes/E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/classes/E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/classes/E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/classes/E2E.DummyAPI.Posts.GetPostById.GetPostById.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/classes/E2E.DummyAPI.Posts.GetPostById.GetPostById.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/classes/E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/classes/E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/classes/E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/classes/E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/classes/E2E.DummyAPI.Users.DeleteUser.DeleteUserById.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/classes/E2E.DummyAPI.Users.DeleteUser.DeleteUserById.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/classes/E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/classes/E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/classes/E2E.DummyAPI.Users.GetAllUsers.GetAllUsers.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/classes/E2E.DummyAPI.Users.GetAllUsers.GetAllUsers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/junitreports/TEST-E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/junitreports/TEST-E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/junitreports/TEST-E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/junitreports/TEST-E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/junitreports/TEST-E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/junitreports/TEST-E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/junitreports/TEST-E2E.DummyAPI.Posts.GetPostById.GetPostById.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/junitreports/TEST-E2E.DummyAPI.Posts.GetPostById.GetPostById.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/junitreports/TEST-E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/junitreports/TEST-E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/junitreports/TEST-E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/junitreports/TEST-E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/junitreports/TEST-E2E.DummyAPI.Users.DeleteUser.DeleteUserById.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/junitreports/TEST-E2E.DummyAPI.Users.DeleteUser.DeleteUserById.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/junitreports/TEST-E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/junitreports/TEST-E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/junitreports/TEST-E2E.DummyAPI.Users.GetAllUsers.GetAllUsers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/junitreports/TEST-E2E.DummyAPI.Users.GetAllUsers.GetAllUsers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/old/Gradle suite/groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/old/Gradle suite/groups.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/old/Gradle suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/old/Gradle suite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/old/Gradle suite/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/old/Gradle suite/methods-not-run.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/old/Gradle suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/old/Gradle suite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/old/Gradle suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/old/Gradle suite/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/old/Gradle suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/old/Gradle suite/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/packages/E2E.DummyAPI.Posts.CreateNewPost.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/packages/E2E.DummyAPI.Posts.CreateNewPost.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/packages/E2E.DummyAPI.Posts.DeletePostByValidId.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/packages/E2E.DummyAPI.Posts.DeletePostByValidId.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/packages/E2E.DummyAPI.Posts.GetAllPosts.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/packages/E2E.DummyAPI.Posts.GetAllPosts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/packages/E2E.DummyAPI.Posts.GetPostById.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/packages/E2E.DummyAPI.Posts.GetPostById.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/packages/E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/packages/E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/packages/E2E.DummyAPI.Users.CreateUserWithValidEmail.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/packages/E2E.DummyAPI.Users.CreateUserWithValidEmail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/packages/E2E.DummyAPI.Users.DeleteUser.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/packages/E2E.DummyAPI.Users.DeleteUser.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/packages/E2E.DummyAPI.Users.GetAllUserUnderYourAccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/packages/E2E.DummyAPI.Users.GetAllUserUnderYourAccount.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/packages/E2E.DummyAPI.Users.GetAllUsers.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/packages/E2E.DummyAPI.Users.GetAllUsers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/runApiTests/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/runApiTests/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Posts.GetPostById.GetPostById.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Posts.GetPostById.GetPostById.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Users.DeleteUser.DeleteUserById.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Users.DeleteUser.DeleteUserById.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Users.GetAllUsers.GetAllUsers.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/E2E.DummyAPI.Users.GetAllUsers.GetAllUsers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Posts.CreateNewPost.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Posts.CreateNewPost.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Posts.DeletePostByValidId.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Posts.DeletePostByValidId.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Posts.GetAllPosts.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Posts.GetAllPosts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Posts.GetPostById.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Posts.GetPostById.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Users.CreateUserWithValidEmail.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Users.CreateUserWithValidEmail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Users.DeleteUser.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Users.DeleteUser.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Users.GetAllUserUnderYourAccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Users.GetAllUserUnderYourAccount.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Users.GetAllUsers.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/E2E.DummyAPI.Users.GetAllUsers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/runApiTests/TEST-E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/runApiTests/TEST-E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/runApiTests/TEST-E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/runApiTests/TEST-E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/runApiTests/TEST-E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/runApiTests/TEST-E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/runApiTests/TEST-E2E.DummyAPI.Posts.GetPostById.GetPostById.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/runApiTests/TEST-E2E.DummyAPI.Posts.GetPostById.GetPostById.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/runApiTests/TEST-E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/runApiTests/TEST-E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/runApiTests/TEST-E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/runApiTests/TEST-E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/runApiTests/TEST-E2E.DummyAPI.Users.DeleteUser.DeleteUserById.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/runApiTests/TEST-E2E.DummyAPI.Users.DeleteUser.DeleteUserById.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/runApiTests/TEST-E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/runApiTests/TEST-E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/runApiTests/TEST-E2E.DummyAPI.Users.GetAllUsers.GetAllUsers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/runApiTests/TEST-E2E.DummyAPI.Users.GetAllUsers.GetAllUsers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/runApiTests/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/runApiTests/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/runApiTests/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/runApiTests/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/runApiTests/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/runApiTests/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Posts.GetPostById.GetPostById.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Posts.GetPostById.GetPostById.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Users.DeleteUser.DeleteUserById.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Users.DeleteUser.DeleteUserById.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Users.GetAllUsers.GetAllUsers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-E2E.DummyAPI.Users.GetAllUsers.GetAllUsers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/E2E/EndToEndTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/E2E/EndToEndTestCases.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/CreateNewPost/CreateNewPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/CreateNewPost/CreateNewPost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/DeletePostByValidId/DeletePostById.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/DeletePostByValidId/DeletePostById.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/GetAllPosts/GetAllPosts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/GetAllPosts/GetAllPosts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/GetPostById/GetPostById.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/GetPostById/GetPostById.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/PostsClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/CreateNewPost/PostsClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/Responses/DeletePostResponse/DeletePostResponseBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/DeletePostByValidId/DeletePostResponse/DeletePostResponseBody.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/Responses/GetAllPostsResponseBody/DataItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/GetAllPosts/GetAllPostsResponseBody/DataItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/Responses/GetAllPostsResponseBody/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/GetAllPosts/GetAllPostsResponseBody/Owner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/Responses/GetAllPostsResponseBody/getAllResponseBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/GetAllPosts/GetAllPostsResponseBody/getAllResponseBody.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/Responses/PostRequestBody/CreatePostRequestBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/CreateNewPost/PostRequestBody/CreatePostRequestBody.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/Responses/PostResponseBody/CreatePostResponseBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/CreateNewPost/PostResponseBody/CreatePostResponseBody.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/Responses/PostResponseBody/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/CreateNewPost/PostResponseBody/Owner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/Responses/tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/CreateUserWithDuplicateEmail/CreateUserWithDuplicateEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/CreateUserWithDuplicateEmail/CreateUserWithDuplicateEmail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/CreateUserWithValidEmail/CreateUserWithValidEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/CreateUserWithValidEmail/CreateUserWithValidEmail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/DeleteUser/DeleteUserById.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/DeleteUser/DeleteUserById.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/GetAllUserUnderYourAccount/GetAllUsersUnderYourAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/GetAllUserUnderYourAccount/GetAllUsersUnderYourAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/GetAllUsers/GetAllUsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/GetAllUsers/GetAllUsers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/Responses/CreateUserErrorResponse/CreateUserErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/CreateUserWithDuplicateEmail/CreateUserErrorResponse/CreateUserErrorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/Responses/CreateUserErrorResponse/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/CreateUserWithDuplicateEmail/CreateUserErrorResponse/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/Responses/CreateUserResponse/CreateUserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/CreateUserWithValidEmail/CreateUserResponse/CreateUserResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/Responses/DeleteUserResponse/DeleteUserResponseBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/DeleteUser/DeleteUserResponse/DeleteUserResponseBody.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/Responses/GetAllUserResponse/DataItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/GetAllUsers/GetAllUserResponse/DataItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/Responses/GetAllUserResponse/GetAllUserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/GetAllUsers/GetAllUserResponse/GetAllUserResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/Responses/GetAllUsersCreatedByAccount/DataItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/GetAllUserUnderYourAccount/GetAllUsersCreatedByAccount/DataItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/Responses/GetAllUsersCreatedByAccount/GetAllUserCreatedByAccountResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/GetAllUserUnderYourAccount/GetAllUsersCreatedByAccount/GetAllUserCreatedByAccountResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/Responses/UserRequestBody/CreateUserRequestBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/CreateUserWithDuplicateEmail/UserRequestBody/CreateUserRequestBody.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/Responses/UserResponseBody/DataItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/Responses/UserResponseBody/GetUserResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/Responses/v" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/UsersClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/CreateUserWithDuplicateEmail/UsersClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/getValidPostId.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/E2E/getValidUserId.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,7 +74,25 @@
       <recent name="E2E.DummyAPI.Users.GetAllUsers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GetAllUsersUnderYourAccount.getAllUsersUnderYouAccount">
+  <component name="RunManager" selected="TestNG.CreateNewPost.createNewPost">
+    <configuration name="CreateNewPost.createNewPost" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DummyApi.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="E2E.DummyAPI.Posts.CreateNewPost.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="E2E.DummyAPI.Posts.CreateNewPost" />
+      <option name="MAIN_CLASS_NAME" value="E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost" />
+      <option name="METHOD_NAME" value="createNewPost" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CreateUserWithValidEmail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DummyApi.test" />
       <extension name="coverage">
@@ -255,24 +104,6 @@
       <option name="PACKAGE_NAME" value="E2E.DummyAPI.Users.CreateUserWithValidEmail" />
       <option name="MAIN_CLASS_NAME" value="E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateUserWithValidEmail.createNewUser" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DummyApi.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="E2E.DummyAPI.Users.CreateUserWithValidEmail.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="E2E.DummyAPI.Users.CreateUserWithValidEmail" />
-      <option name="MAIN_CLASS_NAME" value="E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail" />
-      <option name="METHOD_NAME" value="createNewUser" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -334,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CreateNewPost.createNewPost" />
         <item itemvalue="TestNG.GetAllUsersUnderYourAccount.getAllUsersUnderYouAccount" />
         <item itemvalue="TestNG.GetAllUsers.getAllUsers" />
         <item itemvalue="TestNG.DeleteUserById" />
         <item itemvalue="TestNG.CreateUserWithValidEmail" />
-        <item itemvalue="TestNG.CreateUserWithValidEmail.createNewUser" />
       </list>
     </recent_temporary>
   </component>
