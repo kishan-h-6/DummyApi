@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9501c177-d484-4d7e-9fa6-a760081f8072" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Capstone/getValidAppId.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,33 +47,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_directory_selection": "/Users/testvagrant/DummyApi/src/test/java",
-    "last_opened_file_path": "/Users/testvagrant/DummyApi/src/test/java/E2E/DummyAPI/Users/CreateUserWithDuplicateEmail",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/testvagrant/DummyApi/src/test/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/testvagrant/DummyApi/src/test/java/Capstone/DummyAPI/Users/UpdateUserDetails&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/UpdateUserDetails" />
+      <recent name="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/E2E" />
       <recent name="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Users/CreateUserWithDuplicateEmail" />
       <recent name="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/GetAllPosts" />
       <recent name="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/CreateNewPost" />
-      <recent name="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Capstone.DummyAPI.E2E" />
       <recent name="E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserResponse" />
       <recent name="E2E.DummyAPI.Users.CreateUserWithValidEmail.UserRequestBody" />
       <recent name="E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.UserRequestBody" />
       <recent name="E2E.DummyAPI.Users.GetAllUserUnderYourAccount" />
-      <recent name="E2E.DummyAPI.Users.GetAllUsers" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CreateNewPost.createNewPost">
+  <component name="RunManager" selected="TestNG.EndToEndTestCases.end2EndTestsCases">
     <configuration name="CreateNewPost.createNewPost" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DummyApi.test" />
       <extension name="coverage">
@@ -93,34 +93,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateUserWithValidEmail" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="EndToEndTestCases.end2EndTestsCases" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DummyApi.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Capstone.DummyAPI.Users.CreateUserWithValidEmail.*" />
+          <option name="PATTERN" value="Capstone.DummyAPI.E2E.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="E2E.DummyAPI.Users.CreateUserWithValidEmail" />
-      <option name="MAIN_CLASS_NAME" value="Capstone.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeleteUserById" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DummyApi.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Capstone.DummyAPI.Users.DeleteUser.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="E2E.DummyAPI.Users.DeleteUser" />
-      <option name="MAIN_CLASS_NAME" value="Capstone.DummyAPI.Users.DeleteUser.DeleteUserById" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="Capstone.DummyAPI.E2E" />
+      <option name="MAIN_CLASS_NAME" value="Capstone.DummyAPI.E2E.EndToEndTestCases" />
+      <option name="METHOD_NAME" value="end2EndTestsCases" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -145,17 +129,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetAllUsers.getAllUsers" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UpdateUserDetails.UpdateUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DummyApi.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Capstone.DummyAPI.Users.GetAllUsers.*" />
+          <option name="PATTERN" value="Capstone.DummyAPI.Users.UpdateUserDetails.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="E2E.DummyAPI.Users.GetAllUsers" />
-      <option name="MAIN_CLASS_NAME" value="Capstone.DummyAPI.Users.GetAllUsers.GetAllUsers" />
-      <option name="METHOD_NAME" value="getAllUsers" />
+      <option name="PACKAGE_NAME" value="Capstone.DummyAPI.Users.UpdateUserDetails" />
+      <option name="MAIN_CLASS_NAME" value="Capstone.DummyAPI.Users.UpdateUserDetails.UpdateUserDetails" />
+      <option name="METHOD_NAME" value="UpdateUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateUserDetails.createNewUserWithError" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DummyApi.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Capstone.DummyAPI.Users.UpdateUserDetails.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Capstone.DummyAPI.Users.UpdateUserDetails" />
+      <option name="MAIN_CLASS_NAME" value="Capstone.DummyAPI.Users.UpdateUserDetails.UpdateUserDetails" />
+      <option name="METHOD_NAME" value="createNewUserWithError" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -165,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.EndToEndTestCases.end2EndTestsCases" />
+        <item itemvalue="TestNG.UpdateUserDetails.UpdateUser" />
+        <item itemvalue="TestNG.UpdateUserDetails.createNewUserWithError" />
         <item itemvalue="TestNG.CreateNewPost.createNewPost" />
         <item itemvalue="TestNG.GetAllUsersUnderYourAccount.getAllUsersUnderYouAccount" />
-        <item itemvalue="TestNG.GetAllUsers.getAllUsers" />
-        <item itemvalue="TestNG.DeleteUserById" />
-        <item itemvalue="TestNG.CreateUserWithValidEmail" />
       </list>
     </recent_temporary>
   </component>
