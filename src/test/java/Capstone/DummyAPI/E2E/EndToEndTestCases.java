@@ -41,7 +41,7 @@ public class EndToEndTestCases {
         String text="kishanSDET";
         String image="http://placeimg.com/640/480";
         List<String> tags= List.of(new String[]{"dog", "animal", "husky"});
-        String owner= "60d0fe4f5311236168a109f3";
+        String owner= "60d0fe4f5311236168a109fe";
         CreatePostRequestBody requestBody=CreatePostRequestBody.builder()
                 .tags(tags).owner(owner).likes(0).image(image).text(text).build();
 

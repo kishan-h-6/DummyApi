@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9501c177-d484-4d7e-9fa6-a760081f8072" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/E2E/CreateUserResponse/CreateUserResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/E2E/PostsClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/E2E/UserRequestBody/CreateUserRequestBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/E2E/UsersClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/UpdateUserDetails/UpdateUserDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/UpdateUserDetails/UpdateUserRequestBody/UpdateUserRequestBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/UpdateUserDetails/UpdateUserResponseBody/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/UpdateUserDetails/UpdateUserResponseBody/UpdateUserResponseBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/UpdateUserDetails/UsersClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/E2E/EndToEndTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/E2E/EndToEndTestCases.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

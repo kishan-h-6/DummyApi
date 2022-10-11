@@ -19,7 +19,7 @@ public class CreateNewPost {
         String text="kishanSDET";
         String image="http://placeimg.com/640/480";
         List<String> tags = List.of(new String[]{"dog", "animal", "husky"});
-        String owner= "60d0fe4f5311236168a109f3";
+        String owner= "60d0fe4f5311236168a109fe";
         // 2.Act
         CreatePostRequestBody requestBody = CreatePostRequestBody.builder()
                                             .tags(tags)
