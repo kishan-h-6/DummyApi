@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-06T09:24:13" hostname="TestVagrants-MacBook-Pro.local" time="0.895">
+<testsuite name="E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-10T08:05:14" hostname="TestVagrants-MacBook-Pro.local" time="0.394">
   <properties/>
-  <testcase name="createNewUser" classname="E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail" time="0.895"/>
-  <system-out><![CDATA[{
-    "id": "633e9ebe5030248234e41a19",
-    "firstName": "kishan",
-    "lastName": "rao",
-    "email": "f9039757-c162-4ae4-870e-c26d006f4f09@gmail.com",
-    "registerDate": "2022-10-06T09:24:14.615Z",
-    "updatedDate": "2022-10-06T09:24:14.615Z"
-}
-]]></system-out>
+  <testcase name="createNewUser" classname="E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail" time="0.394"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

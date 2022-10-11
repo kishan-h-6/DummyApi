@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Gradle suite]" verbose="0">
+  <test thread-count="5" name="Gradle test(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="api"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById">
+        <methods>
+          <include name="deletePostById"/>
+        </methods>
+      </class> <!-- E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById -->
+      <class name="E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount">
+        <methods>
+          <include name="getAllUsersUnderYouAccount"/>
+        </methods>
+      </class> <!-- E2E.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount -->
+      <class name="E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts">
+        <methods>
+          <include name="getAllPosts"/>
+        </methods>
+      </class> <!-- E2E.DummyAPI.Posts.GetAllPosts.GetAllPosts -->
+      <class name="E2E.DummyAPI.Users.DeleteUser.DeleteUserById">
+        <methods>
+          <include name="deleteUserById"/>
+        </methods>
+      </class> <!-- E2E.DummyAPI.Users.DeleteUser.DeleteUserById -->
+      <class name="E2E.DummyAPI.Users.GetAllUsers.GetAllUsers">
+        <methods>
+          <include name="getAllUsers"/>
+        </methods>
+      </class> <!-- E2E.DummyAPI.Users.GetAllUsers.GetAllUsers -->
+      <class name="E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail">
+        <methods>
+          <include name="createNewUser"/>
+        </methods>
+      </class> <!-- E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserWithValidEmail -->
+      <class name="E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost">
+        <methods>
+          <include name="createNewPost"/>
+        </methods>
+      </class> <!-- E2E.DummyAPI.Posts.CreateNewPost.CreateNewPost -->
+      <class name="E2E.DummyAPI.Posts.GetPostById.GetPostById">
+        <methods>
+          <include name="getPostById"/>
+        </methods>
+      </class> <!-- E2E.DummyAPI.Posts.GetPostById.GetPostById -->
+      <class name="E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail">
+        <methods>
+          <include name="createNewUserWithError"/>
+        </methods>
+      </class> <!-- E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail -->
+    </classes>
+  </test> <!-- Gradle test(failed) -->
+</suite> <!-- Failed suite [Gradle suite] -->
