@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Capstone.DummyAPI.Users.GetAllUsers.GetAllUsers" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-12T05:20:51" hostname="TestVagrants-MacBook-Pro.local" time="0.452">
+  <properties/>
+  <testcase name="getAllUsers" classname="Capstone.DummyAPI.Users.GetAllUsers.GetAllUsers" time="0.452"/>
+  <system-out><![CDATA[{
+    "data": [
+        {
+            "id": "60d0fe4f5311236168a109fe",
+            "title": "mr",
+            "firstName": "AndrÃ©",
+            "lastName": "Robert",
+            "picture": "https://randomuser.me/api/portraits/med/men/9.jpg"
+        },
+        {
+            "id": "60d0fe4f5311236168a109ff",
+            "title": "mrs",
+            "firstName": "Josefina",
+            "lastName": "Calvo",
+            "picture": "https://randomuser.me/api/portraits/med/women/3.jpg"
+        },
+        {
+            "id": "60d0fe4f5311236168a10a00",
+            "title": "mrs",
+            "firstName": "Els",
+            "lastName": "Ijsseldijk",
+            "picture": "https://randomuser.me/api/portraits/med/women/75.jpg"
+        },
+        {
+            "id": "60d0fe4f5311236168a10a01",
+            "title": "mr",
+            "firstName": "Jesus",
+            "lastName": "Riley",
+            "picture": "https://randomuser.me/api/portraits/med/men/45.jpg"
+        },
+        {
+            "id": "60d0fe4f5311236168a10a02",
+            "title": "mr",
+            "firstName": "kishan",
+            "lastName": "rao",
+            "picture": "https://randomuser.me/api/portraits/med/men/31.jpg"
+        },
+        {
+            "id": "60d0fe4f5311236168a10a03",
+            "title": "mr",
+            "firstName": "Andri",
+            "lastName": "Leclerc",
+            "picture": "https://randomuser.me/api/portraits/med/men/57.jpg"
+        },
+        {
+            "id": "60d0fe4f5311236168a10a04",
+            "title": "mr",
+            "firstName": "Konsta",
+            "lastName": "Manninen",
+            "picture": "https://randomuser.me/api/portraits/med/men/24.jpg"
+        },
+        {
+            "id": "60d0fe4f5311236168a10a05",
+            "title": "ms",
+            "firstName": "Ane",
+            "lastName": "Frafjord",
+            "picture": "https://randomuser.me/api/portraits/med/women/54.jpg"
+        },
+        {
+            "id": "60d0fe4f5311236168a10a06",
+            "title": "mrs",
+            "firstName": "OlaÃ­",
+            "lastName": "Gomes",
+            "picture": "https://randomuser.me/api/portraits/med/women/85.jpg"
+        },
+        {
+            "id": "60d0fe4f5311236168a10a07",
+            "title": "mr",
+            "firstName": "Sigmund",
+            "lastName": "Myran",
+            "picture": "https://randomuser.me/api/portraits/med/men/61.jpg"
+        }
+    ],
+    "total": 186,
+    "page": 0,
+    "limit": 10
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

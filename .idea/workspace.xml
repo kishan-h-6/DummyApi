@@ -5,7 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9501c177-d484-4d7e-9fa6-a760081f8072" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Capstone/DummyAPI/E2E/EndToEndTestCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/Capstone/DummyAPI/E2E/EndToEndTestCases.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Capstone/DummyAPI/E2E/UsersClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/Capstone/DummyAPI/E2E/UsersClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Capstone/DummyAPI/Posts/CreateNewPost/PostRequestBody/CreatePostRequestBody.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/Capstone/DummyAPI/Posts/CreateNewPost/PostRequestBody/CreatePostRequestBody.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Capstone/DummyAPI/Users/CreateUserWithDuplicateEmail/CreateUserErrorResponse/CreateUserErrorResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Capstone/DummyAPI/Users/CreateUserWithDuplicateEmail/CreateUserErrorResponse/Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Capstone/DummyAPI/Users/CreateUserWithDuplicateEmail/CreateUserWithDuplicateEmail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Capstone/DummyAPI/Users/CreateUserWithDuplicateEmail/UserRequestBody/CreateUserRequestBody$CreateUserRequestBodyBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Capstone/DummyAPI/Users/CreateUserWithDuplicateEmail/UserRequestBody/CreateUserRequestBody.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Capstone/DummyAPI/Users/CreateUserWithDuplicateEmail/UsersClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Capstone/DummyAPI/Users/CreateUserWithValidEmail/CreateUserResponse/CreateUserResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Capstone/DummyAPI/Users/CreateUserWithValidEmail/CreateUserWithValidEmail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Capstone/DummyAPI/Users/CreateUserWithValidEmail/UserRequestBody/CreateUserRequestBody$CreateUserRequestBodyBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Capstone/DummyAPI/Users/CreateUserWithValidEmail/UserRequestBody/CreateUserRequestBody.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Capstone/DummyAPI/Users/CreateUserWithValidEmail/UsersClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Capstone/DummyAPI/Users/UpdateUserDetails/UpdateUserDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/Capstone/DummyAPI/Users/UpdateUserDetails/UpdateUserDetails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Capstone/DummyAPI/Users/UpdateUserDetails/UsersClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/Capstone/DummyAPI/Users/UpdateUserDetails/UsersClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/E2E/EndToEndTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/E2E/EndToEndTestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/E2E/UsersClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/E2E/UsersClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Posts/CreateNewPost/PostRequestBody/CreatePostRequestBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Posts/CreateNewPost/PostRequestBody/CreatePostRequestBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/CreateUserWithDuplicateEmail/CreateUserErrorResponse/CreateUserErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/CreateUserWithEmail/CreateUserErrorResponse/CreateUserErrorResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/CreateUserWithDuplicateEmail/CreateUserErrorResponse/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/CreateUserWithEmail/CreateUserErrorResponse/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/CreateUserWithDuplicateEmail/CreateUserWithDuplicateEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/CreateUserWithEmail/CreateUserWithDuplicateEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/CreateUserWithDuplicateEmail/UserRequestBody/CreateUserRequestBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/CreateUserWithEmail/UserRequestBody/CreateUserRequestBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/CreateUserWithDuplicateEmail/UsersClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/CreateUserWithEmail/UsersClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/CreateUserWithValidEmail/CreateUserResponse/CreateUserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/CreateUserWithEmail/CreateUserResponse/CreateUserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/CreateUserWithValidEmail/CreateUserWithValidEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/CreateUserWithEmail/CreateUserWithValidEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/CreateUserWithValidEmail/UserRequestBody/CreateUserRequestBody.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/CreateUserWithValidEmail/UsersClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/UpdateUserDetails/UpdateUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/UpdateUserDetails/UpdateUserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/UpdateUserDetails/UsersClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Capstone/DummyAPI/Users/UpdateUserDetails/UsersClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,25 +105,25 @@
       <recent name="$PROJECT_DIR$/src/test/java/E2E/DummyAPI/Posts/CreateNewPost" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Capstone.DummyAPI.Users.CreateUserWithEmail" />
+      <recent name="Capstone.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserResponse" />
       <recent name="Capstone.DummyAPI.E2E" />
       <recent name="E2E.DummyAPI.Users.CreateUserWithValidEmail.CreateUserResponse" />
       <recent name="E2E.DummyAPI.Users.CreateUserWithValidEmail.UserRequestBody" />
-      <recent name="E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.UserRequestBody" />
-      <recent name="E2E.DummyAPI.Users.GetAllUserUnderYourAccount" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.EndToEndTestCases.end2EndTestsCases">
-    <configuration name="CreateNewPost.createNewPost" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.UpdateUserDetails.UpdateUser">
+    <configuration name="CreateUserWithDuplicateEmail.createNewUserWithError" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DummyApi.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Capstone.DummyAPI.Posts.CreateNewPost.*" />
+          <option name="PATTERN" value="Capstone.DummyAPI.Users.CreateUserWithEmail.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="E2E.DummyAPI.Posts.CreateNewPost" />
-      <option name="MAIN_CLASS_NAME" value="Capstone.DummyAPI.Posts.CreateNewPost.CreateNewPost" />
-      <option name="METHOD_NAME" value="createNewPost" />
+      <option name="PACKAGE_NAME" value="Capstone.DummyAPI.Users.CreateUserWithDuplicateEmail" />
+      <option name="MAIN_CLASS_NAME" value="Capstone.DummyAPI.Users.CreateUserWithEmail.CreateUserWithDuplicateEmail" />
+      <option name="METHOD_NAME" value="createNewUserWithError" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -93,7 +131,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EndToEndTestCases.end2EndTestsCases" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateUserWithValidEmail.createNewUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DummyApi.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Capstone.DummyAPI.Users.CreateUserWithEmail.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Capstone.DummyAPI.Users.CreateUserWithEmail" />
+      <option name="MAIN_CLASS_NAME" value="Capstone.DummyAPI.Users.CreateUserWithEmail.CreateUserWithValidEmail" />
+      <option name="METHOD_NAME" value="createNewUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EndToEndTestCases" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DummyApi.test" />
       <extension name="coverage">
         <pattern>
@@ -103,26 +159,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="Capstone.DummyAPI.E2E" />
       <option name="MAIN_CLASS_NAME" value="Capstone.DummyAPI.E2E.EndToEndTestCases" />
-      <option name="METHOD_NAME" value="end2EndTestsCases" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetAllUsersUnderYourAccount.getAllUsersUnderYouAccount" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GetAllUsers" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DummyApi.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Capstone.DummyAPI.Users.GetAllUserUnderYourAccount.*" />
+          <option name="PATTERN" value="Capstone.DummyAPI.Users.GetAllUsers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="E2E.DummyAPI.Users.GetAllUserUnderYourAccount" />
-      <option name="MAIN_CLASS_NAME" value="Capstone.DummyAPI.Users.GetAllUserUnderYourAccount.GetAllUsersUnderYourAccount" />
-      <option name="METHOD_NAME" value="getAllUsersUnderYouAccount" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="Capstone.DummyAPI.Users.GetAllUsers" />
+      <option name="MAIN_CLASS_NAME" value="Capstone.DummyAPI.Users.GetAllUsers.GetAllUsers" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -147,31 +201,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UpdateUserDetails.createNewUserWithError" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DummyApi.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Capstone.DummyAPI.Users.UpdateUserDetails.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Capstone.DummyAPI.Users.UpdateUserDetails" />
-      <option name="MAIN_CLASS_NAME" value="Capstone.DummyAPI.Users.UpdateUserDetails.UpdateUserDetails" />
-      <option name="METHOD_NAME" value="createNewUserWithError" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.EndToEndTestCases.end2EndTestsCases" />
         <item itemvalue="TestNG.UpdateUserDetails.UpdateUser" />
-        <item itemvalue="TestNG.UpdateUserDetails.createNewUserWithError" />
-        <item itemvalue="TestNG.CreateNewPost.createNewPost" />
-        <item itemvalue="TestNG.GetAllUsersUnderYourAccount.getAllUsersUnderYouAccount" />
+        <item itemvalue="TestNG.GetAllUsers" />
+        <item itemvalue="TestNG.CreateUserWithValidEmail.createNewUser" />
+        <item itemvalue="TestNG.CreateUserWithDuplicateEmail.createNewUserWithError" />
+        <item itemvalue="TestNG.EndToEndTestCases" />
       </list>
     </recent_temporary>
   </component>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-10T08:05:11" hostname="TestVagrants-MacBook-Pro.local" time="1.099">
-  <properties/>
-  <testcase name="deletePostById" classname="E2E.DummyAPI.Posts.DeletePostByValidId.DeletePostById" time="1.099"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
