@@ -4,7 +4,6 @@ import Capstone.DummyAPI.E2E.CreateUserResponse.CreateUserResponse;
 import Capstone.DummyAPI.Posts.CreateNewPost.PostRequestBody.CreatePostRequestBody;
 import Capstone.DummyAPI.Posts.CreateNewPost.PostResponseBody.CreatePostResponseBody;
 import Capstone.DummyAPI.Users.DeleteUser.DeleteUserResponse.DeleteUserResponseBody;
-import Capstone.DummyAPI.Users.GetAllUsers.GetAllUserResponse.GetAllUserResponse;
 import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
@@ -38,10 +37,10 @@ public class EndToEndTestCases {
         CreateUserResponse createUserResponseBody=createUserBody.as(CreateUserResponse.class);
         Assert.assertNotNull(createUserResponseBody);
 
-        String text="kishanSDET";
-        String image="http://placeimg.com/640/480";
+        String text="Random text for the post";
+        String image="randomImageLink.com";
         List<String> tags= List.of(new String[]{"dog", "animal", "husky"});
-        String owner= "60d0fe4f5311236168a109fe";
+        String owner= createUserResponseBody.getId();
         CreatePostRequestBody requestBody=CreatePostRequestBody.builder()
                 .tags(tags).owner(owner).likes(0).image(image).text(text).build();
 
@@ -59,10 +58,7 @@ public class EndToEndTestCases {
         Assert.assertEquals(postResponseById.statusCode(),200);
         Assert.assertEquals(postDeleteByIdResponseBody.getId(),postResponseByIdBody.getId());
 
-        Response allUsers = usersClient.getAllUsers();
-        GetAllUserResponse getUserResponse = allUsers.as(GetAllUserResponse.class);
-        String userId = getUserResponse.getData().get(0).getId();
-        Response deleteUserResponse = usersClient.deleteUserById(userId);
+        Response deleteUserResponse = usersClient.deleteUserById(createUserResponseBody.getId());
         DeleteUserResponseBody deleteResponse = deleteUserResponse.as(DeleteUserResponseBody.class);
         Assert.assertNotNull(deleteResponse);
     }

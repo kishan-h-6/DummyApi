@@ -8,6 +8,7 @@ import java.util.List;
 @Getter
 @Builder
 public class CreatePostRequestBody {
+
 	private String owner;
 	private String image;
 	private String text;

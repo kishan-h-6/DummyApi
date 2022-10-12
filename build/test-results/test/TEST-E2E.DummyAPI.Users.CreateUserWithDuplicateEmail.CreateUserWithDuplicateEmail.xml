@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-10T08:05:13" hostname="TestVagrants-MacBook-Pro.local" time="0.368">
-  <properties/>
-  <testcase name="createNewUserWithError" classname="E2E.DummyAPI.Users.CreateUserWithDuplicateEmail.CreateUserWithDuplicateEmail" time="0.368"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
